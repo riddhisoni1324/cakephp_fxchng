@@ -1,0 +1,157 @@
+/* ---------------------------------------------------------------------- */
+/*	Panel Tools
+ /* ---------------------------------------------------------------------- */
+.panel-tools {
+	position: absolute;
+	right: 9px;
+	top: 14px;
+}
+.panel-tools .btn-link {
+	color: #0480BE;
+}
+.panel-tools .btn-link:hover {
+	color: #036392;
+}
+.panel-tools .btn-link {
+	color: #57A957;
+}
+.panel-tools .btn-link:hover {
+	color: #417E41;
+}
+.panel-tools .btn-link {
+	color: #C43C35;
+}
+.panel-tools .btn-link:hover {
+	color: #972E28;
+}
+.panel-tools .btn-link {
+	color: #333333;
+}
+.panel-tools .btn-link:hover {
+	color: #000000;
+}
+.panel-tools .btn-link:focus, .panel-tools .btn-link:hover, .panel-tools .btn-link:active {
+	text-decoration: none;
+	outline: 0 !important;
+}
+.panel-tools .btn.expand:before {
+	content: "\f077";
+	display: inline;
+	float: right;
+	font-family: FontAwesome;
+	font-weight: 300;
+	height: auto;
+	text-shadow: none;
+}
+.panel-tools .btn.collapses:before {
+	content: "\f078";
+	display: inline;
+	float: right;
+	font-family: FontAwesome;
+	font-weight: 300;
+	height: auto;
+	text-shadow: none;
+}
+.panel-tools .btn {
+	border-style: none;
+}
+.panel-tools .btn-link {
+	color: #666666;
+}
+.panel-tools .btn-link:hover {
+	color: #333333;
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Panels and panel elements
+ /* ---------------------------------------------------------------------- */
+.fxloginadminarea .panel-heading {
+	background-color: #FBFBFB;
+	border-bottom: 1px solid #E9E9E9!important;
+	border-radius: 0px;	
+	height: 52px;
+	padding-left: 16px;
+	padding-top:16px;
+	position: relative;
+	font-size:14px; color:#000000; text-transform:uppercase; font-weight:bold;
+	
+}
+.panel-heading > [class^="icon-"], .panel-heading > [class*=" icon-"], .panel-heading > [class^="clip-"], .panel-heading > [class*=" clip-"] {
+	border-right: 1px solid #CDCDCD;
+	box-shadow: 1px 0 0 0 #FFFFFF;
+	opacity: 0.7;
+	padding: 12px 10px 8px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 36px;
+}
+.panel-box {
+	background: #FAFAFA;
+	border: 1px solid #CDCDCD;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	clear: both;
+	margin-bottom: 16px;
+	margin-top: 16px;
+	position: relative;
+}
+.panel.panel-full-screen {
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9998;
+}
+.panel-scroll {
+	position: relative;
+	margin: 10px;
+	padding: 0px;
+	width: auto;
+	height: 400px;
+	overflow: hidden;
+}
+
+
+
+
+.select-wrapper{
+		float: left;
+		display: inline-block;
+		border: 1px solid #d8d8d8;            
+		background: url("../images/dropdown.png") no-repeat right center;
+		cursor: pointer;
+	}
+	.select-wrapper, .select-wrapper select{
+		width: 200px;
+		height: 26px;
+		line-height: 26px;
+	}
+	.select-wrapper:hover{
+		background: url("../images/dropdown-hover.png") no-repeat right center;
+		border-color: #239fdb;
+	}
+	.select-wrapper .holder{
+		display: block;
+		margin: 0 35px 0 5px;
+		white-space: nowrap;            
+		overflow: hidden;
+		cursor: pointer;
+		position: relative;
+		z-index: -1;
+	}
+	.select-wrapper select{
+		margin: 0;
+		position: absolute;
+		z-index: 2;            
+		cursor: pointer;
+		outline: none;
+		opacity: 0;
+		/* CSS hacks for older browsers */
+		_noFocusLine: expression(this.hideFocus=true); 
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		filter: alpha(opacity=0);
+		-khtml-opacity: 0;
+		-moz-opacity: 0;
+	}  

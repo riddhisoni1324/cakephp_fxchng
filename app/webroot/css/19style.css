@@ -1,0 +1,925 @@
+@charset "utf-8";
+/* CSS Document */
+/* ========== Do Not Touch In Css Strat ========== */
+@import url("reset.css");
+@import url("fonts.css");
+@import url("base.css");
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900,900italic);
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot') format('embedded-opentype'),
+         url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+         url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+         url('../fonts/glyphicons-halflings-regular.svg') format('svg');
+}
+@font-face {
+        font-family: "Indian Rupee";
+        src: url('../fonts/705657959-IndianRupee.eot');
+        src: url('../fonts/705657959-IndianRupee.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/705657959-IndianRupee.svg#Indian Rupee') format('svg'),
+        url('../fonts/705657959-IndianRupee.woff') format('woff'),
+        url('../fonts/705657959-IndianRupee.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+@font-face {
+    font-family: 'agopusnormal';
+    src: url('../fonts/agor-webfont.eot');
+    src: url('../fonts/agor-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/agor-webfont.woff') format('woff'),
+         url('../fonts/agor-webfont.ttf') format('truetype'),
+         url('../fonts/agor-webfont.svg#agopusnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+@font-face {
+        font-family: 'Open Sans';
+        src: url('../fonts/689331055-OpenSans-Regular_0.eot');
+        src: url('../fonts/689331055-OpenSans-Regular_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/689331055-OpenSans-Regular_0.svg#Open Sans') format('svg'),
+        url('../fonts/689331055-OpenSans-Regular_0.woff') format('woff'),
+        url('../fonts/689331055-OpenSans-Regular_0.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+body{background: #ffffff; margin:0px; padding:0px;}
+p{margin:0px; padding:0px 0px 0px 0px; line-height:22px; font-size:13px; color:#525966;}
+.page-wrap {width:960px; margin:0px auto;}
+.floatleft {float:left;}
+.floatright {float:right;}
+.clear {clear:both;}
+.bold {font-weight:bold;}
+a {text-decoration:none; color:#2B84C6;}
+a:hover, a.selected {text-decoration:none; color:#fff;}
+ul {list-style:none;}
+li {list-style:none;}
+h1{font-size:30px; color:#fff; font-family: 'agopusnormal'; text-align:center; font-weight:bold; margin-top:20px;}
+h2{font-size:24px; color:#525966; margin-bottom:10px; font-family: 'Open Sans'; border-bottom:1px dotted #aaaaaa; padding-bottom:15px;}
+h4{font-size:16px; color:#525966; margin-bottom:10px;}
+
+/* ========== Do Not Touch In Css End ========== */
+
+/* ------- Top Area Strat ------- */
+
+.marbtm{margin-bottom:20px;}
+.marright{margin-right:15px;}
+.martop{margin-top:20px;}
+.headtitle h2{margin-top:20px;}
+
+.header{margin:0px; padding:20px 0px; text-align:center; background: #E05419 url(../images/bg_header.jpg) no-repeat top center; background-size:cover;}
+.header .headerleft{margin:0px; padding:0px; text-align:left; height:68px;}
+.header .headerright{width:650px; float:right; margin-top:15px;}
+
+.styleSelect select{width: 240px; padding: 5px; font-size: 16px; line-height: 1; border: 0; height: 34px; -webkit-appearance: none; color: #000;}
+.styleSelect{width: 222px; margin-top:0px; margin-right:10px; margin-bottom:5px; float:right; height: 34px; overflow: hidden; background: url("../images/dropdown.png") no-repeat 98%;}
+.btnpstfrad{background:#339BA7; border-radius:0px; color:#fff; font-size:14px; font-weight:bold; padding:7px 13px 8px; transition:all 0.5s ease; margin: 0px 15px; display:inline-block;}
+.btnpstfrad:hover{color:#fff; background:#3CB4C1; transition:all 0.5s ease;}
+.enteryrsrch{width:200px; padding:5px; border:1px solid #F2B48C; height:35px; float:left;}
+
+.icon_location{background:url(../images/icon_location.png) no-repeat left 8px!important; padding-left:10px!important; padding-top: 5px!important; color:#fff!important; font-size:18px; font-weight:bold; text-align:left; float:left; display:inline-block;}
+.icon_location option{padding:5px;}
+
+.dropdown1{background:url(../images/dropdown.png) no-repeat right top; border: medium none; cursor: pointer; float: right; font-size: 13px;    height: 20px; margin-left: 5px; margin-top: 12px; top: 17px; width: 10px;}
+.fb_login{background:url(../images/fb_login.png) no-repeat; height:48px; width:228px; display:block; /*float:right;*/}
+.footer .fb_login{background:url(../images/fb_login.png) no-repeat; height:38px; width:172px; display:block; float:left;}
+/* ------- Top Area End ------- */
+
+/* ------- Navigation Area Strat ------- */
+
+.border{background:url(../images/border.jpg) repeat-x left top; height:2px;}
+.btnsubmitfb{background:url(../images/btn_facebook.png) no-repeat top center; width:431px; height:41px; border:none;}
+
+/* ------- Navigation Area End ------- */
+
+/* ------- Pages Contener Area Strat ------- */
+/* ..... Home Page Contener Area Strat ..... */
+
+.bannerdown{background:url(../images/bg_headerdown.jpg) repeat top center; height:auto; width:100%;}
+.bannerup{background:url(../images/bg_bannerup.png) repeat left top; height:auto; width:100%;}
+.bgnavi{background:url(../images/bg_navi.png) repeat left top;  width:100%; padding:0px 0px!important; position:relative;}
+.nav { margin:0px auto; max-width:1240px;}
+.bgnavi ul{margin:0px; padding:0px 0px 0px 3%;}
+.bgnavi ul li{text-align:center; font-size:11px; color:#fff; float:left; border-right:1px solid #666666; padding:0px; width:90px; min-height:97px;}
+.bgnavi ul li.last{border-right:none;}
+.bgnavi ul li a{color:#fff; display:block; padding:10px 5px; font-size:13px;}
+.bgnavi ul li:hover{background:#E3601A;}
+.search{background:url(../images/bg_search.png) repeat left top; border-radius:0px; padding:15px; width:68%; height:85px; margin:5px auto;}
+.search input{/*background:url(../images/search_area.png) no-repeat left top;*/ background:#fff; width:404px; height:57px; padding:10px; font-size:18px; color:#4c4c4c; float:left; border:0px;}
+.search .btnsearch{background:url(../images/btn_search.png) no-repeat; width:56px; height:57px; float:left; margin-right:10px;}
+.search .btnsearch:hover{background:url(../images/btn_search_hover.png) no-repeat; width:56px; height:57px; float:left;}
+.or{float: left; margin-right: 8px; margin-top: 5px; width: 42px;}
+.btnpostad{height:57px; cursor:pointer; float:left;}
+.btnpostad img{width:100%;}
+.navbar-nav > li > .dropdown-menu{ }
+.nav .open > a:focus {
+  background-color:none !important;
+  border-color: #428bca;
+}
+.navbar-nav > li > .dropdown-menu li{ min-height:28px; font-size:11px; border-right:#A04412 solid 0px; text-align:left; margin:0px 0px; display:block; width:100%!important; border-bottom:#BF5115 solid 1px; font-size:11px;}
+.navbar-nav > li > .dropdown-menu li:hover, .navbar-nav > li > .dropdown-menu li.selected, .navbar-nav > li > .dropdown-menu li:hover a, .navbar-nav > li > .dropdown-menu li.selected a{ background:#CA5617; color:#ffffff;}
+.navbar-nav > li > .dropdown-menu li a{ padding:8px 15px;}
+.navbar-nav > li > .dropdown-menu li.last{ border-bottom:none;}
+
+
+.fbpage {text-align:center;}
+.fbpage img{text-align:center; width:100%; max-width:843px;}
+
+.hmcnt{width:100%;}
+.hmcnt .hmcntleft{float:left; width:50%; background:#eeeeee; padding:10px 0px; text-align:right;}
+.hmcnt .hmcntleft .whatisfxchg{background:url(../images/icon_whatisfxchg.png) no-repeat left center; color: #525B67; float: right; font-size: 24px; height: 61px; margin-right: 20px; padding-left: 70px; padding-top: 10px; text-align: right; font-weight:bold;}
+.hmcnt .hmcntright .howitswork{background:url(../images/icon_howitswork.png) no-repeat left center; color: #525B67; float: left; font-size: 24px; height: 61px; margin-left: 20px; padding-left: 70px; padding-top: 10px; text-align: left; font-weight:bold;}
+.hmcnt a{color:#525B67;}
+
+.hmcntin{margin:0px; padding:40px 0px;}
+.hmcntin .hmcntinleft{margin:0px; padding:0px;}
+.hmcntin .hmcntinleft ul{margin:0px; padding:0px;}
+.hmcntin .hmcntinleft ul li{font-size:16px; color:#525966; background:url(../images/arrow.png) no-repeat right center; border-bottom:1px dashed #d5d5d5; cursor:pointer;}
+.hmcntin .hmcntinleft ul li a{color:#525966; display:block; padding: 5px 0px 10px 0px;}
+.hmcntin .hmcntinleft ul li:hover a{color:#E57018;}
+
+ul.arrow li{background:url(../images/arrow.png) no-repeat left 7px; padding-left:15px; padding-bottom:15px;}
+
+.headerpostbtn{float:left; text-align:center;}
+.btnsearch{background: url("../images/btn_search2.png") no-repeat 0 0; border: 0 none; float: left; height: 35px; width: 38px;}
+
+.hmcntin .hmcntinright{margin-bottom:20px; border:1px solid #eeeeee; border-radius:5px; min-height:40px; }
+.hmcntin .hmcntinright table td, .advtmain table td{padding:7px;}
+.hmcntin .hmcntinright table td span.title, .advtmain table td span.title{font-size: 18px; color:#33A8B5; padding-bottom:5px; line-height:18px; display:inline-block;}
+.hmcntin .hmcntinright table td p, .advtmain table td p{font-size:13px; color:#525966; text-align:left;}
+.hmcntin .hmcntinright table td.rupee, .advtmain table td.rupee{font-size:18px; color:#525966; font-weight:bold;}
+.hmcntin .hmcntinright table td.rupee span{font-family:"Indian Rupee";}
+.rupee span{font-family:"Indian Rupee";}
+
+.namebox{text-align:right; font-size:12px; color:#525966;}
+.name{width:48px; float:right; position:relative; overflow:hidden;}
+.name1{position:relative; z-index:2; background:url(../images/bg_round.png) no-repeat; width:48px; height:48px;}
+.name2{position:relative; z-index:1; display:block; margin-top:-100%; width:48px; height:48px;}
+.name img{ width:100%; max-width:48px;}
+
+.links{float:right; border-bottom:1px solid #eeeeee; padding:0px; width:100%;}
+.nobrd{border:none;}
+
+.sortby{font-size:13px; color:#525966; margin-bottom:20px; font-weight:bold;}
+.sortby select{background: #FFFFFF; border: 1px solid #C7C7C7; color: #393C3D; padding:5px;	width:200px;}
+
+.pagination{margin:0px auto; padding:0px; font-size:14px; color:#33A8B5; width:100%; text-align:center;}
+.pagination ul{margin:0px; padding:0px;}
+.pagination ul li{margin:0px 10px; float:left; text-align:center;}
+.pagination ul li a{color:#33A8B5; font-weight:bold;}
+.pagination ul li a:hover, .pagination ul li a.selected{color:#525966; font-weight:bold;}
+
+.breadcrumbin{background:#f4f4f4; margin:0px; padding:15px 0px;}
+.breadcrumbin ul{margin:0px; padding:0px;}
+.breadcrumbin ul li{font-size:12px; color:#33A8B5; background:url(../images/arrow_breadcrumb.png) no-repeat right center; font-weight:bold; float:left; margin-right:15px; padding-right:15px;}
+.breadcrumbin ul li a{color:#33A8B5;}
+.breadcrumbin ul li a:hover{color:#525966;}
+.breadcrumbin ul li.active{background:none;}
+.breadcrumbin ul li.active a{color:#525966}
+
+.hmcntinright .last{ border-bottom:none;}
+.links a{color:#666;}
+.links a:hover{color:#000000;}
+.visitor{float:right; padding-left:0px; font-size:11px; color:#666; padding-right:10px; text-align:center;}
+.visitor span{font-size:20px;}
+.share{background: #fff; float:right; padding-left:15px; font-size:13px; padding:5px 10px; border:1px solid #3B5998; margin-right:10px; margin-top:15px;}
+.share a{background:url(../images/icon_share.png) no-repeat left center; color:#3B5998; padding-left:20px;}
+.share:hover a, .share:active a, .share:focus a, .share.active a{background: url(../images/icon_share_hover.png) no-repeat left center; padding-left:20px; color:#fff;}
+.share:hover, .share.active {background:#3B5998; color:#fff; cursor:pointer;}
+.favorite{background: #fff; float:right; padding-left:15px; font-size:13px; padding:5px 10px; border:1px solid #E36719; margin-right:10px; margin-top:15px;}
+.favorite a{background:url(../images/icon_favorites.png) no-repeat left center; color:#E36719; padding-left:15px;}
+.favorite:hover a, .favorite.active a{background: url(../images/icon_favorites_hover.png) no-repeat left center; padding-left:15px; color:#fff;}
+.favorite:hover , .favorite.active{background:#E36719; color:#fff; cursor:pointer;}
+.reply{background: #fff; float:right; padding-left:15px; font-size:13px; padding:5px 10px; border:1px solid #33A8B5; margin-right:10px; margin-top:15px;}
+.reply a{background:url(../images/icon_reply.png) no-repeat left center; color:#33A8B5; padding-left:15px;}
+.reply:hover a, .reply.active a{background: url(../images/icon_reply_hover.png) no-repeat left center; padding-left:15px; color:#fff;}
+.reply:hover, .reply.active {background:#33A8B5; color:#fff; cursor:pointer;}
+
+.edit{background: #fff; float:right; padding-left:15px; font-size:13px; padding:5px 10px; border:1px solid #33A8B5; margin-right:10px; margin-top:15px;}
+.edit a{background:url(../images/icon_edit.png) no-repeat left center; color:#33A8B5; padding-left:20px;}
+.edit:hover a{background: url(../images/icon_edit_hover.png) no-repeat left center; padding-left:20px; color:#fff;}
+.edit:hover {background:#33A8B5; color:#fff; cursor:pointer;}
+
+.redcircle{
+	background: #DD7222;
+    border-radius: 3px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    margin-right: 10px;
+    min-width: 15px;
+    padding: 1px 5px;
+    text-align: center;
+    vertical-align: middle;	
+	}
+
+
+.hmcnt .hmcntleft .whatisfxchg a{color:#525B67;}
+.hmcnt .hmcntright{float:right; width:50%; background:#f4f4f4; padding:10px 0px; text-align:left;}
+.readmore{font-size:15px; color: #E15919; text-align:right; float:right; font-weight:bold;}
+.readmore a{color:#E15919;}
+.readmore a:hover{color:#525966;}
+
+/* ..... Home Page Contener Area End ..... */
+
+/* ..... Inner Page Contener Area Strat ..... */
+
+.incntinleft{margin:0px; padding:0px;}
+.searchkeywords{background:#f8f8f8; padding:15px; margin-bottom:10px;}
+.searchinput{background:url(../images/search_input.png) no-repeat left top; width:82%; height:31px; padding:5px; font-size:12px; font-style:italic; float:left; border:0;}
+.btnsearchsmall{background:url(../images/btn_search_small.jpg) no-repeat; height:29px; width:38px; float:left; border:0;}
+.leftaccordian{background:#f8f8f8; padding:15px;}
+.leftaccordian ul{margin:0px; padding:0px;}
+.accordiantitle{border-bottom:1px dotted #aaaaaa; padding-bottom:10px; margin-bottom:5px; font-size:16px; font-weight:bold; color:#33A7B4;}
+.accordiantitle span{width:6px; height:9px;}
+.icon_car{background:url(../images/icon_car.png) no-repeat left center; padding-left:30px;}
+.carcount{font-size:13px; color:#525966; border-bottom:1px dotted #aaaaaa; padding-bottom:10px; padding-left:0px; margin-bottom:10px;}
+.price{padding-bottom:5px; margin-bottom:5px; font-size:16px; font-weight:bold; color:#33A7B4; border-bottom:1px dotted #aaaaaa; padding-bottom:10px;}
+.priceinputin{background:#fff!important; border:1px solid #cccccc!important; height:25px!important; width:90px!important; padding:5px; font-size:15px; color:#727B8D;}
+.btngo{margin-left:10px;}
+.make{padding-bottom:5px; margin-bottom:5px; font-size:16px; font-weight:bold; color:#33A7B4; background:url(../images/arrow_acc.png) no-repeat right 9px; border-bottom:1px dotted #aaaaaa;}
+.year{padding-bottom:5px; margin-bottom:5px; font-size:16px; font-weight:bold; color:#33A7B4; background:url(../images/arrow_acc.png) no-repeat right 9px;}
+.makecheckbox{font-size:12px; color:#525966; padding-left:5px; font-weight:normal;}
+.makecheckbox table tr td{padding-bottom:5px;}
+.makecheckbox ul{margin:0px 0px 20px; padding:0px; width:100%; display:inline-block;}
+.makecheckbox ul li{margin:0px; padding:0px 0px 0px 5px;}
+.makecheckbox ul li a{padding:5px 0px; border-bottom:1px solid #e6e7e8; width:100%; display:inline-block;}
+.padleft10{padding-left:10px;}
+.cardetail img{border:1px solid #bbbbbb; border-radius:5px;}
+
+.phno{font-size:20px; color:#525966; text-align:right; margin-bottom:10px;}
+.phno span{background:url(../images/icon_phone.png) no-repeat left center; padding-left:20px;}
+.phno img{margin-top:10px;}
+
+.commonfrds h4{font-size:12px; color:#525966; font-weight:bold;}
+.commonfrds ul{padding:0px;  margin-top:10px;}
+.commonfrds ul li{margin-bottom: 7px; margin-right: 7px; border:1px solid #ccc; border-radius:0px; float:left; overflow:hidden;}
+
+.btncollapse{font-size:12px; color:#33A8B5; background:url(../images/icon_collapse.png) no-repeat left center; padding-left:20px; width:80px; float:right;}
+.btncollapse a{color:#33A8B5;}
+.locationdetail{font-size:13px; color:#666!important;}
+.datetime{font-size:12px; color:#666!important; float:left;margin-left:13%; margin-top:25px;}
+
+/* ..... Inner Page Contener Area End ..... */
+/* ------- Pages Contener Area End ------- */
+
+/* ------- Footer Area Strat ------- */
+
+.footer{background:#eeeeee; padding:20px 0px;}
+.footer .footerleft{margin:0px; padding:0px;}
+.footer .footerleft ul{margin:0px;}
+.footer .footerleft ul li{font-size:12px; color:#525966; float:left; padding-bottom:20px;}
+.footer .footerleft ul li span{padding:0px 10px;}
+.footer .footerleft ul li a{color:#525966;}
+.footer .footerleft ul li a:hover, .footer .footerleft ul li a.selected{color:#DF5919;}
+.footerlogo{text-align:right;}
+.footertext{text-align:right; font-size:12px; color:#525966;}
+
+/* ------- Footer Area End ------- */
+.persentdiv{ width:65%;}
+.commonfrds{ padding-left:11%; margin-top:10px;}
+.btncollapse{ margin-left:11%; cursor:pointer; margin-top:25px;}
+.mappop{width:100%;}
+.disblock{display:block!important;}
+.nav .dropdown-menu{ background:#E3601A!important; width:220px;}
+.modal-body input[type="text"], textarea{border:1px solid #ccc; padding:5px 0px; width:86%;}
+textarea{resize:none;}
+.modal-body label{width:80px;}
+.closebtnpop{background:url(../images/btn_close.png) no-repeat left top; position:absolute; width:15px; height:15px; top:10px; right:10px; cursor:pointer;}
+.closebtnpop a{width:15px; height:15px; display:block;}
+.navbar-nav li div{height:32px;}
+ul.topfacebookbtn{margin:0px; padding:0px; border:0px solid #000; float:right;}
+ul.topfacebookbtn li{float:left; display:inline-block; margin-left:15px;}
+ul.topfacebookbtn li a{float:left; display:inline-block; color:#fff}
+ul.topfacebookbtn li a:hover{text-decoration:underline;}
+
+/*********************** popup **************************/
+ .myButton {
+    padding: .2em 0.8em;
+    font-size: 1em;
+}
+.myDiv {
+    background: none repeat scroll 0 0 #f8f8f8;  
+    color: Green;
+    display: none;
+    height: 100%;
+    position: absolute;
+    text-align: justify;   
+    width: 100%;
+	top:0px;
+    z-index: 999999; color:#fff;	
+}
+.product_success{
+	margin-top: 10%;
+    text-align: center !important;
+}
+.minheight400{min-height:350px!important; border:0px!important;}
+.productbox{min-height:400px; background:#CCC; width:100%; margin-bottom:15px;}
+
+.priceinput{ padding:3px 0px 0px 0px;}
+
+.formareaspical label{ font-weight:normal; color:#333333; font-size:13px;}
+.rediboxarea td{ vertical-align:top; line-height:20px; padding-right:13px;}
+.rediboxarea td.paddbtmradio{ padding-top:4px; padding-right:0px;}
+.rediboxarea td.paddbtmradio input{ margin:0px 5px 0px 0px;}
+
+.formareaspical option, option{ background:#ffffff!important;}
+.header option{ background:#e46b18!important;}
+.sortby td{ padding-right:10px;}
+
+.select-wrapper{
+		float: left;
+		display: inline-block;
+		border: 1px solid #d8d8d8;            
+		background:url(../images/dropdown1.png) no-repeat right center;
+		cursor: pointer;
+	}
+	.select-wrapper, .select-wrapper select{
+		width: 99.9%;
+		height: 30px;
+		line-height: 30px;
+	}
+	.sortby .select-wrapper, .sortby  .select-wrapper select{width: 200px;}
+	.select-wrapper:hover{
+		background: url("../images/dropdown-hover.png") no-repeat right center;
+		border-color: #239fdb;
+	}
+	.select-wrapper .holder{
+		display: block;
+		margin: 0 35px 0 10px;
+		white-space: nowrap;            
+		overflow: hidden;
+		cursor: pointer;
+		position: relative;
+		z-index: -1;
+		color:#555555; font-size:14px;
+	}
+	.sortby .select-wrapper .holder{ font-weight:normal;}
+	.select-wrapper select{
+		margin: 0;
+		position: absolute;
+		z-index: 2;            
+		cursor: pointer;
+		outline: none;
+		opacity: 0;
+		/* CSS hacks for older browsers */
+		_noFocusLine: expression(this.hideFocus=true); 
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		filter: alpha(opacity=0);
+		-khtml-opacity: 0;
+		-moz-opacity: 0;
+	} 
+	
+	.bggreaylight{ background:#f7f7f7; padding:10px;}
+	.header .styleSelect{ border:#ca500a solid 1px; padding:0px 5px; width:230px;}
+
+
+
+/*********************** fxchng loginarea Strat **************************/
+body, p, div, td, h1, h2, h3, h4 { -webkit-font-smoothing: antialiased; text-shadow: 0px 0px 0px; font-size:14px; }
+body .fxloginadminarea{ font-family: 'Lato', sans-serif; color:#000000;}
+body .fxloginadminarea p{ padding-bottom:15px; line-height:20px;}
+.loginnewleftarea{ background:#32323a; min-height:200px; font-family: 'Lato', sans-serif; min-height:700px;}
+.loginlogo{ text-align:center; padding:13px 0px 85px; background:#28282e;}
+.loginlogo img{ width:100%; max-width:167px;}
+
+.loginfxmainarea{ position:relative;}
+.loginfxarea{ position:relative; margin:0px auto; width:121px; margin-top:-60px; overflow:hidden;}
+.fxloginbg{ position:relative; z-index:2;}
+.fxloginperson{ position:absolute; z-index:1; top:0px;}
+.loginfxmainarea h1{ font-family: 'Lato', sans-serif; font-size:24px; color:#ffffff; margin:0px; padding:5px 0px 20px 0px; font-weight:400; text-align:center;}
+.loginfxmainarea h1 span{ display:block; font-size:16px; color:#CBCBCB; font-style:italic;}
+
+.fxloginleftnavi{}
+.fxloginleftnavi li{ background:url(../imageslogin/fxnavi_line.png) repeat-x left bottom; padding:0px 12px; font-size:19px; color:#959FA9; line-height:19px;}
+.fxloginleftnavi li a{ color:#959FA9; display:block;background:url(../imageslogin/arrow_fxlogin.png) no-repeat right 20px;}
+.fxloginleftnavi li span{ display:block; padding:16px 0px 18px 43px; min-height:34px; }
+.fxloginleftnavi li:hover, .fxloginleftnavi li.selected{background:/*url(../imageslogin/fxnavi_line.png) repeat-x left bottom */#E25F19;}
+.fxloginleftnavi li:hover a, .fxloginleftnavi li.selected a{ color:#ffffff; background:url(../imageslogin/arrow_fxlogin_hover.png) no-repeat right 20px;}
+
+.fxloginleftnavi li .dashboardicon span{ background:url(../imageslogin/dashboard_icon.png) no-repeat left center;}
+.fxloginleftnavi li:hover .dashboardicon span, .fxloginleftnavi li.selected .dashboardicon span{ background:url(../imageslogin/dashboard_icon_selected.png) no-repeat left center;}
+
+.fxloginleftnavi li .inboxicon span{ background:url(../imageslogin/inbox_icon.png) no-repeat left center;}
+.fxloginleftnavi li:hover .inboxicon span, .fxloginleftnavi li.selected .inboxicon span{ background:url(../imageslogin/inbox_icon_selected.png) no-repeat left center;}
+
+.fxloginleftnavi li .yourlistingicon span{ background:url(../imageslogin/your_listing_icon.png) no-repeat left center;}
+.fxloginleftnavi li:hover .yourlistingicon span, .fxloginleftnavi li.selected .yourlistingicon span{ background:url(../imageslogin/your_listing_icon_selected.png) no-repeat left center;}
+
+.fxloginleftnavi li .yourtripsicon span{ background:url(../imageslogin/your_trips_icon.png) no-repeat left center;}
+.fxloginleftnavi li:hover .yourtripsicon span, .fxloginleftnavi li.selected .yourtripsicon span{ background:url(../imageslogin/your_trips_icon_selected.png) no-repeat left center;}
+
+.fxloginleftnavi li .profileicon span{ background:url(../imageslogin/profile_icon.png) no-repeat left center;}
+.fxloginleftnavi li:hover .profileicon span, .fxloginleftnavi li.selected .profileicon span{ background:url(../imageslogin/profile_icon_selected.png) no-repeat left center;}
+
+.fxloginleftnavi li .accounticon span{ background:url(../imageslogin/account_icon.png) no-repeat left center;}
+.fxloginleftnavi li:hover .accounticon span, .fxloginleftnavi li.selected .accounticon span{ background:url(../imageslogin/account_icon_selected.png) no-repeat left center;}
+
+.loginnewrightarea{ background:#F1F1F1; min-height:700px;}
+.loginnewrightarea h1{font-family: 'Lato', sans-serif; font-size:36px; color:; margin:1px 0px 30px 0px; padding:0px; color:#434343; text-align:left; font-weight:normal;}
+.loginnewrightarea h1 span{ font-size:16px; display:block; text-transform:uppercase; padding:3px 0px 0px 0px; color:#666666;}
+
+.paddnoneleft{ padding-left:0px!important;}
+.paddnoneright{ padding-right:0px!important;}
+
+.fxloginnamberright{ background:url(../imageslogin/fxlogin_line.png) repeat-x left bottom #ffffff; min-height:20px; font-size:18px; color:#656565; padding:0px 28px;}
+.smallloginpersnarea{ float:right; cursor:pointer; background:url(../imageslogin/ve_line.png) repeat-y left top; padding:6px 0px 6px 18px;}
+.loginfxareasmall{ position:relative; margin:0px auto; width:42px; margin-top:0px; overflow:hidden;}
+.fxloginbgsmall{ position:relative; z-index:2;}
+.fxloginpersonsmall{ position:absolute; z-index:1; top:0px;}
+.loginfxareasmall{ float:left;}
+.smallpername{ float:left; padding:9px 0px 0px 14px;}
+.fxloginnamberright .caret {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid;    
+    margin-left: 11px;
+}
+.smallloginpersnarea .dropdown-menu{ top:46px; border-radius: 0px; min-width:173px!important; right:0px;}
+.smallloginpersnarea .dropdown-menu > li > a{ color:#333333;}
+
+.fxlogingreayarea{ padding:23px 20px 23px 20px;}
+
+.dateandtime{ float:right; position:relative;}
+.datenew{ float:left;}
+.timenew{ float:left; font-size:36px; color:#1FBBA5; background:#ffffff; text-align:right; line-height:36px; font-weight:bold; padding:9px 12px; display:inline-block;
+-moz-box-shadow:      0 6px #cccccc;
+-webkit-box-shadow: 0 0 6px #cccccc;
+box-shadow:         0 0 6px #cccccc;
+}
+.timenew span{ display:block; font-size:14px; line-height:14px; font-weight:normal;}
+.datenew{float:left; font-size:36px; color:#ffffff; background:#1FBBA5; text-align:left; line-height:36px; font-weight:bold; padding:9px 12px; display:inline-block;
+-moz-box-shadow:      0 6px #cccccc;
+-webkit-box-shadow: 0 0 6px #cccccc;
+box-shadow:         0 0 6px #cccccc;}
+.datenew span{ font-size:14px; line-height:14px; font-weight:normal; padding-left:5px;}
+.block{ display:block}
+.fxloginadminarea .panel-heading span{ font-size:14px; color:#E35F19; text-transform:none; display:inline-block; padding-left:3px;}
+.fxloginadminarea .panel {
+	margin-bottom: 30px;
+	background-color: #fff;
+	border: 0px solid #dddddd;
+	border-radius: 0px;
+	-moz-box-shadow:      0 6px #dddddd!important;
+-webkit-box-shadow: 0 0 6px #dddddd!important;
+box-shadow:         0 0 6px #dddddd!important;
+
+
+}
+.fxloginadminarea .panel-body {
+	padding: 15px
+}
+.btn-xs{ font-size:18px; font-weight:normal; line-height:normal;}
+.panel-tools .btn-link{ color:#A7A7A7;}
+   
+.orangli{}
+.orangli li{ color:#656565; padding:0px 0px 8px 0px;}
+.orangli li span{ display:inline-block; width:118px; color:#E35F19;}
+
+.facebookinvitationarea{}
+.facebookarealeft{ font-size:24px; color:#000000;}
+.facebookarealeft span{ display:block; font-size:18px; color:#656565;}
+.facebookarealeft span strong{ color:#E35F19;}
+.facebookarearight{ padding-top:4%;}
+.facebookarearight img{ width:100%; max-width:240px;}
+
+.modal-footer{padding-right:3px!important;}
+
+.fxloginadminarea .form-control {
+  display: block;
+  width: 100%;
+  height: 44px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #000000;
+  vertical-align: middle;
+  background-color: #f1f1f1;
+  background-image: none;
+  border: 0px solid #cccccc;
+  border-radius: 4px!important;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+          transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.fxloginadminarea  .input-group{ width:100%; font-family: 'Lato', sans-serif!important;}
+.paddtop3{ padding-top:8px;}
+.newpaddbtm10{ padding-bottom:10px;}
+.formspan{ font-size:14px; color:#666666; padding-top:5px; display:inline-block;}
+.fntitalic{ font-style:italic;}
+.formareanew .dropdown-menu{ top:42px; padding:5px 10px; background:#f1f1f1;}
+.formareanew .dropdown-menu li{ float:none;color:#333333;}
+.formareanew .dropdown-menu li a{ color:#333333;}
+.formareanew  .btn-default{height: 44px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #000000;
+  vertical-align: middle;
+  background-color: #f1f1f1;
+  border-radius: 4px!important; 
+  border: 0px solid #cccccc;
+  box-shadow:none;}
+  
+.fxloginadminarea .input-group-addon{ background:#f1f1f1;}
+.formareanew  .fa{ color:#a7a7a7;}
+
+.mautiselectarea li{ float:left;}
+.mautiselectarea li.margin10{ margin:0px 10px;}
+.height140{height:140px!important;}
+.btnprice{background:url(../images/nextarrow.jpg) no-repeat left top; width:25px; height:25px; border:0px; margin-top:0px;}
+.fxloginadminarea .input-group-addon{  border:none;}
+
+.input-group .rounfrightnone{
+border-top-right-radius: 0px!important;
+border-bottom-right-radius: 0px!important;}
+.cor1fbba6{ color:#1fbba6!important; font-size:32px;}
+
+.addphonepopuparea{}
+.addphonepopup{ background:#f1f1f1; padding:20px 30px;border-radius: 8px; margin:10px 0px 0px 0px;}
+.addphonepopup h1{ font-size:14px; color:#000000; margin:0px; padding:0px 0px 10px 0px; font-weight:normal;}
+.addphonepopup .btn-default, .addphonepopup .form-control{ border:#1fbba6 solid 1px!important;  width:100%!important;}
+.addphonepopup .bootstrap-select{  width:100%!important;}
+.addphonepopup .pull-left{ width:95%;}
+.addphonepopup ul.popupul{ margin:10px 0px 10px 0px; padding-bottom:10px;}
+.addphonepopup  ul.popupul li{ float:left; width:60%; line-height:44px;}
+.addphonepopup ul.popupul li.addnumbername{ width:40%; min-width:141px;}
+.contreycoad{ float:left; width:35px;}
+.numberphonenew{ width: auto;}
+.addphonepopup .btn-success{ background:#1fbba6; border:none; font-size:14px; box-shadow:none; width:100%;}
+.fxloginadminarea .btn{ font-size:14px;font-family: 'Lato', sans-serif!important;}
+.fxloginadminarea .addphonepopup ul li .input-group{ width:89%}
+.fxloginadminarea .input-group-addon{ padding-right:7px; padding-left:7px;}
+.imgresize{ max-width:32px;}
+
+.profileupdatedarea{ position:relative; width:379px; overflow:hidden;}
+.profileupadatebg{ position:relative; z-index:2;}
+.profileupadateimg{ position:absolute; z-index:1; top:0px; margin:2px; text-align:center; width:99%;}
+.profileupadatebg, .profileupadateimg{ width:100%;}
+.profilephotonew{}
+.dotaileul{ border:#cecece dotted 2px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px; min-height:20px;}
+.dotaileul li{ border-bottom:#cccccc solid 1px; padding:20px 34px; color:#666666; font-size:15px;}
+.dotaileul li span{ display:block; padding:0px 0px 0px 60px; min-height:47px; line-height:47px;}
+.dotaileul li.last{ border:none;}
+.dotaileul li.iconnew1 span{ background:url(../imageslogin/icon_browse.png) no-repeat 5px top;}
+.dotaileul li.iconnew2 span{ background:url(../imageslogin/icon_take_photo.png) no-repeat left 2px;}
+.cor11fbba6{ color:#1fbba6;}
+
+.timezone .dropdown-toggle{ min-width:300px;}
+.timezone .dropdown-toggle .pull-left{ min-width:250px;}
+.languagesbox{ padding:8px 0px;}
+.spicalpul{ background:none!important;}
+.bowserlanges .input-group{ max-width:310px;}
+.bowserlanges .input-group placeholder{ font-style:italic;}
+
+.fxloginadminarea .btn-success{ background:#1fbba6; border:none; font-size:14px; color:#ffffff;-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;}
+.btnsavearea{ text-align:right; padding:20px 0px 0px 0px;}
+.fxloginadminarea .btn-lg{ min-width:92px;}
+.fxloginadminarea .bowserlanges .input-group-addon{ padding-left:10px; padding-top:0px;}
+.fxloginadminarea .bowserlanges .input-group-addon .imgresize{ max-width:42px;}
+
+
+.select-wrapper{
+		float: left;
+		display: inline-block;
+		border: 0px solid #d8d8d8;            
+		background: url("../imageslogin/dropdown.jpg") no-repeat right center #f1f1f1;
+		cursor: pointer;
+		  
+    border-radius: 4px !important;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.075) inset;
+    color: #000000;
+    display: block;
+    font-size: 14px;
+    height: 44px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+	}
+	.select-wrapper, .select-wrapper select{
+		width:100%;
+		height: 44px;
+		line-height: 26px;
+	}
+	.select-wrapper:hover{
+		background: url("../imageslogin/dropdown.jpg") no-repeat right center #f1f1f1;
+		border-color: #239fdb;
+	}
+	.select-wrapper .holder{
+		display: block;
+		margin: 0 35px 0 5px;
+		white-space: nowrap;            
+		overflow: hidden;
+		cursor: pointer;
+		position: relative;
+		z-index: 1;
+	}
+	.select-wrapper select{
+		margin: 0;
+		position: absolute;
+		z-index: 2;            
+		cursor: pointer;
+		outline: none;
+		opacity: 0;
+		/* CSS hacks for older browsers */
+		_noFocusLine: expression(this.hideFocus=true); 
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		filter: alpha(opacity=0);
+		-khtml-opacity: 0;
+		-moz-opacity: 0;
+	} 
+.addphonepopup .select-wrapper{border: 1px solid #1fbba6 !important;}
+	
+	.ganrealnew{ max-width:110px;}
+.fxloginadminarea .with50per{ width:50%; min-width:200px;}
+
+/*********************** fxchng loginarea End **************************/
+
+@media screen and (min-width : 740px)  and (max-width : 2400px) {.navbar-nav > li:hover ul{ display:block;}}
+@media (max-width: 1280px){
+	.bgnavi ul li{width:90px!important;}
+	}
+@media (max-width: 1024px){
+	.listdisnone{width:670px!important; height:162px!important; overflow:hidden!important;}
+	.bgnavi ul{ padding:0px;}
+	.bgnavi ul li a{color:#fff; display:block; padding:10px 5px;}
+	.bgnavi ul li{ width:78px!important; min-height:; margin-bottom:0px;}
+	.bannerdown{height:auto;}
+	.bannerup{height:auto;}
+	.search{width:70%;}
+	.search input{width:291px;}
+	.footer .footerleft ul li span{padding:0 5px;}
+	.searchinput{width:75%;}
+	.persentdiv{ width:55%;}
+	.commonfrds{}
+	.btncollapse{ margin-left:12%;}
+	ul.navbar-nav li:last-child ul{border:2px solid #000!important;}
+	.addphonepopup ul.popupul li { width: 52%;}
+	.profileupdatedarea{ position:relative; width:100%; overflow:hidden; max-width:379px;}
+.profileupdatedarea img{ width:100%;}
+	}
+	@media screen and (min-width : 900px)  and (max-width : 1204px) {.dotaileul li{ padding:15px;}.dotaileul li span{ line-height:20px; padding-top:12px;}}
+@media (max-width:980px){.bgnavi ul li{ width:70px;}}
+@media (max-width: 800px) {
+	ul.dropdown-menu li{width:220px!important;}
+	.smallloginpersnarea ul.dropdown-menu li{width:173px!important;}
+	.search input{width:51%;}
+	.search{width:100%;}
+	.hmcntin .hmcntinright{border:none;}
+	.bgnavi ul li{ width:57px;}
+	.bgnavi ul li a{ padding:10px 0px;}
+	.bgnavi ul li{font-size:9px;}
+	.searchinput{width:70%;}
+	.persentdiv{ width:53%;}
+	.commonfrds{ padding-left:7.2%;}
+	.btncollapse{ margin-left:7.2%;}
+	.newpaddbtm10 .paddtop3{ padding-top:0px; padding-bottom:5px;}.addphonepopup ul.popupul li { width: 58%;}
+	.profileupdatedarea{ margin:0px auto 10px auto;}
+	
+	}
+	@media (max-width: 768px) {.bgnavi ul li{ width:54px;}}
+/*	@media (max-width: 700px) {.paddnoneleft{ padding-left:15px!important;}
+.paddnoneright{ padding-right:15px!important;}}*/
+@media (max-width: 640px) {
+	/*.bgnavi ul li{font-size:10px; display:block; min-height:60px; width:91px; border-bottom:1px solid #666666;}
+	.bgnavi ul li.last{ border-right:1px solid #666666;}
+	.bgnavi ul li a{padding:0px;}*/
+	.bgnavi ul li{ width:100%; text-align:left; line-height:28px; font-size:18px; min-height:10px;}
+	.bgnavi ul li a{ padding:10px 10px;}
+	.bgnavi ul li div{ float:left; line-height:0px;}
+	.search input{width:42%;}
+	.header .headerleft{text-align:center;}
+	.header .headerright{ margin:0 auto;}
+	.bannerdown{height:auto;}
+	.hmcntin .hmcntinleft{margin-bottom:30px;}
+	.footerlogo{text-align:center;}
+	.footertext{text-align:center;}
+	.fb_login{text-align:center; margin-bottom:10px;}
+	.footer .footerleft{margin: 0 auto; padding: 0; width: 73%;}
+	.searchinput{width:190px;}
+	.persentdiv{ width:45%;}
+	.commonfrds{ padding-left:6%;}
+	.btncollapse{ margin-left:6%;}
+	.commonfrds h4{ float:none; padding-top:7px;}
+    .navbar-nav > li > .dropdown-menu li{ width:30%!important; font-size:13px;}
+	.navbar-nav > li > .dropdown-menu{ background:#E3601A!important;}
+	.nav .open{ background:#E3601A;}
+	.bgnavi ul li{width:100%!important; border-bottom:1px solid #1b4f56; }
+	.bgnavi ul li.dropdown{background:url('../images/icon_downarrow.png') no-repeat right 21px;}
+	.bgnavi ul li.dropdown.open{background:#e3601a url('../images/icon_up.png') no-repeat right 21px;}
+	.navbar-nav > li > .dropdown-menu li{width:100%!important;  }
+	.navbar-nav > li > .dropdown-menu li{padding-left:40px!important;}
+	.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header{ padding:10px;}
+	ul.topfacebookbtn{float:right; width:56%;}
+	ul.topfacebookbtn li {float:none; width:100%;}.addphonepopup .btn{ margin-bottom:10px;}
+	.dateandtime{ margin:0px 0px 30px 0px; float:left;}
+	ul.topfacebookbtn li{ text-align:right; padding-right:10px;}
+	
+	}
+@media (max-width: 480px) {
+	.search input{width:86%;}
+	.search{height:210px;}
+	.or{float:none; width:100%; text-align:center; margin:10px 0px; display:inline-block;}
+	.btnpostad{width:100%; text-align:center;}
+	.btnpostad img{width:auto;}
+	.or img{text-align:center;}
+	.search .btnsearch{margin-right:0px}
+	.bgnavi{height: 220px;}
+	.bannerup{height:auto;}
+	.bannerdown{height:auto;}
+	.hmcnt .hmcntleft .whatisfxchg {background: url("../images/icon_whatisfxchg.png") no-repeat 90px center; color: #525B67; float: none;    font-size: 24px; font-weight: bold; height: 61px; margin-right: 20px; padding-left: 70px; padding-top: 10px; text-align: center;}
+	.hmcnt .hmcntleft{width:100%;}
+	.hmcnt .hmcntright{width:100%;}
+	.hmcnt .hmcntright .howitswork{background: url("../images/icon_howitswork.png") no-repeat 90px center; float:none; padding-left: 20px; text-align:center; margin-left:0px;}
+	.footer .footerleft{width:100%;}
+	.bgnavi ul li{ width:100%; text-align:left; line-height:28px; font-size:18px; min-height:10px;}
+	.bgnavi ul li a{ padding:10px 10px;}
+	.bgnavi ul li div{ float:left; line-height:0px;}
+	.persentdiv{ width:35%;}
+	.commonfrds{ padding-left:6%;}
+	.btncollapse{ margin-left:6%;}
+	ul.topfacebookbtn{float:right; width:45%; }
+	ul.topfacebookbtn li {float:none; width:100%; text-align:center;}
+	.headerright .fb_login{margin-top:10px;}
+	.styleSelect select{width:220px; margin:0px auto;}
+	.addphonepopup ul.popupul li { width: 98%;}
+	.dotaileul li span{ line-height:20px; padding-top:14px;}
+	.btnsavearea{ text-align:center;}
+	ul.topfacebookbtn li{ text-align:right; padding-right:10px;}
+	.fxloginadminarea .with50per{ width:100%; min-width:200px;}
+	.ganrealnew{ width:100%; max-width:100%;}
+	}
+@media (max-width: 360px) {
+	
+
+	.search input{width:81%;}
+	.hmcnt .hmcntleft .whatisfxchg{background: url("../images/icon_whatisfxchg.png") no-repeat 60px center; padding-left: 100px; margin-right:0px;}
+	.hmcnt .hmcntright .howitswork{background:url("../images/icon_howitswork.png") no-repeat 60px center; padding-left: 70px;}
+	.footer .footerleft ul {padding-bottom:15px;}
+	.footer .footerleft ul li{ float:none; padding-bottom:10px; text-align:center; border-bottom:1px dotted #cccccc; margin-bottom:10px;}
+	.footer .footerleft ul li span{display:none;}
+	.jssord05r{ right:70px!important;}	
+	.headerright{ width:345px;}
+	.navbar-nav > li > .dropdown-menu li{ width:100%!important;}
+	.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header{ padding:10px;}
+
+.header .headerright{width:100%;}
+.styleSelect{float:none; margin:0px auto;}
+		ul.topfacebookbtn {float:right; width:100%;}
+		ul.topfacebookbtn li {float:none; width:100%; text-align:center;}
+	.headerright .fb_login{margin-top:10px;}
+	.styleSelect select{width:220px; margin:0px auto;}
+	.fb_login{margin:0px auto;}
+	.mautiselectarea li{ float:none; margin-bottom:10px;}
+.mautiselectarea li.margin10{ margin:0px 0px 10px 0px;}
+.formareanew  .btn-default{ width:100%!important;}
+.fxloginadminarea .btn-group, .fxloginadminarea .btn-group-vertical{ display:block;}
+.fxloginadminarea .pull-left{ width:89%;}
+.addphonepopup ul.popupul li { width: 90%;}
+.profileupdatedarea{ position:relative; width:100%; overflow:hidden;}
+.profileupdatedarea img{ width:100%;}
+.dotaileul li{ padding:20px; }
+.dotaileul li span{ padding-top:4px;}
+.timezone .dropdown-toggle{ min-width:100px;}
+.timezone .dropdown-toggle .pull-left{ min-width:80px;}
+.header .styleSelect{ margin-bottom:5px;}
+.header .headerleft { height:auto; padding-bottom:10px;}
+.headerleft .floatleft{ float:none;}
+
+	}
+@media (max-width: 320px) {
+	.search input{width:78%;}
+	.hmcnt .hmcntleft .whatisfxchg{background: url("../images/icon_whatisfxchg.png") no-repeat 30px center; padding-left: 80px; margin-right:0px;}
+	.hmcnt .hmcntright .howitswork{background:url("../images/icon_howitswork.png") no-repeat 30px center; padding-left: 50px;}
+	.jssord05r{ right:200px!important;}
+	.header .headerright{ width:286px;}
+	.navbar-nav > li > .dropdown-menu li{ width:43%!important;}
+	
+	}
+	
+	@media (min-width:1200px){
+		.bgnavi ul {
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+		width: 95%;
+		}
+		.bgnavi ul li{ width:95px;}
+		}
+		
+		@media (min-width:1500px){
+		.bgnavi ul {
+    	float: none;
+    	margin: 0 auto;
+    	padding: 0;
+    	width: 82%;
+		}
+		}
+		@media (min-width:1700px){
+		.bgnavi ul {
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+		width: 67%;
+		}
+		}
+		
+		
+
+
+		
+
+.divhide{ display:none!important;}
+.divshow{ display:block!important;}
+label.error{ display:none!important;}
+input[type="text"].error, input[type="email"].error{border:1px solid #F00;}
+textarea.error{border:1px solid #F00;}
+
+ul.pagination2{ float:left!important; margin:0px!important; padding:0px!important;}
+ul.pagination2 li{ float:left!important; margin-right:5px;  text-align:center; background:#eee; color:#000!important;}
+ul.pagination2 li a{color:#000!important; display:inline-block; padding:5px 10px;}
+ul.pagination2 li.next a, ul.pagination2 li.prev a{color:#000!important; display:inline-block; height:25px; width:25px;}
+ul.pagination2 li:hover a{ color:#fff!important;}
+ul.pagination2 li.active{color :#fff!important; cursor:pointer; background:#d76711!important; padding:5px 10px;}
+ ul.pagination2 li:hover{color :#fff!important; cursor:pointer; background:#d76711!important;}
+.nomar{margin-bottom:0px!important; padding-bottom:0px!important;}
+ul.pagination2 li.next{ background:url(../images/next.png) no-repeat center 4px #eee;}
+ul.pagination2 li.prev{ background:url(../images/prev.png) no-repeat center 4px #eee;}
+ul.pagination2 li.prev:hover{background:url(../images/prev.png) no-repeat center 4px #d76711!important;}
+ul.pagination2 li.next:hover{background:url(../images/next.png) no-repeat center 4px #d76711!important;}
+/*programmer css*/
+.showSingle{
+    cursor: pointer;
+}
+a:hover, a.selected{
+	color: #2B84C6;
+	text-decoration: none;
+}
+.listdisnone{ /*height:160px;*/ overflow:hidden; width:100%;}
+#viewproducts .listdisnone{height:156px; overflow:hidden;}
+.listdisnone1{height:196px; overflow:hidden; width:800px;}
+.cntleft{float:left; width:250px;}
+.cntright{float:right; width:450px;}
+.cntright div{ margin-bottom:15px;}
+.cntright div div.clear{ margin-bottom:0px;}
+.cntright div span{ float:left;}
+.cntright div span.name{ width:53%; margin-right:10px;}
+.cntright div span.phone{ width:44%;}
+.cntright input[type="text"]{border:1px solid #ccc; height:30px; color:#000; padding:5px; width:100%;}
+.cntright textarea{border:1px solid #ccc; height:80px; color:#000; padding:5px; resize:none; background:none; width:100%;}
+.btnsubmit{background:#DB955F; color:#64290B; display:inline-block; font-weight:bold; margin-bottom:0!important;}
+.btnsubmit a{color:#64290B; padding:8px 20px; display:inline-block;}
+.btnsubmit:hover a{color:#fff;}
+.cntrightin{width:100%;}
+.replaytitle {background: #f8f8f8; border: 1px dotted #ccc; color: white; padding: 10px; color:#525966;}
+.myDiv label{color:#525966!important; font-weight:normal; font-size:13px;}
+.info2, .success2, .warning2, .failure, .validation2 {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+.info2 {
+color: #00529B;
+background-color: #BDE5F8;
+background-image: url(../images/info.png);
+}
+.success2 {
+color: #4F8A10;
+background-color: #DFF2BF;
+background-image:url(../images/success.png);
+}
+.warning2{
+color: #9F6000;
+background-color: #FEEFB3;
+background-image: url(../images/warning.png);
+}
+.failure{
+color: #D8000C;
+background-color: #FFBABA;
+background-image: url(../images/error.png);
+}
+/* ------- footer end ------- */
+
+input[type="text"].error, input[type="email"].error, input[type="file"].error,textarea.error{border:1px solid #F00;}
+label.error{ display:none!important;}
+}
+/* HomeMaster End css start */
+.active3{
+	display:none;
+}
+/* homemaster css end*/

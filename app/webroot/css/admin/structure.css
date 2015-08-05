@@ -1,0 +1,150 @@
+/*
+------------------------------------------------------
+[DesignBox - CMS] CSS: Structure - Created by Ali B.
+------------------------------------------------------
+*/
+
+/* Font Adjustment & Body Background
+---------------------------------------*/
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #3e3e3e;
+}
+html,body {
+	height:100%; /* needed for container min-height */
+}
+/* Generic styles
+---------------------------------------*/
+img{border:none;}
+.no-wrap{ white-space: nowrap; }
+a{text-decoration: none; color:#333333; }
+a:hover{text-decoration:underline; color:#333333;}
+a img, a:focus, fieldset{ border: none;}
+strong { font-weight: bold;}
+p{font-size:1.1em; color:#000; line-height:1.2em;}
+.grey{background-color:#eeeeee; text-align:right;}
+.black{color:#000000;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.clear{clear:both;}
+.center{ text-align:center;}
+
+
+/* Header Tags Styles
+---------------------------------------*/
+h1	{font-size:2em;}
+h2	{font-size:1.0em;}
+h3{
+	font-size:1.9em; 
+	color:#666666; 
+	background:transparent url(/adminimages/placeholder/mainHeaderBg.jpg) repeat-x top left;
+	padding:5px 0 4px 10px;
+	border-bottom:1px solid #ebebeb;
+}
+h4{
+	font-size:1.5em; 
+	color:#666666;
+	padding:3px 0 5px 0;
+	text-transform:uppercase;
+}
+h5{
+	font-size:1.2em; 
+	color:#0c0c0c; 
+	background:transparent url(/adminimages/placeholder/accHeaderBg.jpg) repeat-x top left;
+	padding:8px 0 8px 10px;
+	border-bottom:1px solid #ebebeb;
+}
+/* Form Tags Styles
+---------------------------------------*/
+label{
+	
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/*input[type=text]  {*/
+input[type=text],input[type=password]{
+	border:1px solid #cdcdcd;
+	color:#333333;
+	padding:1px 0 1px 3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.0em;
+	
+}
+select {
+	border:1px solid #cdcdcd;
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+}
+textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #cdcdcd;
+	color:#333333;
+	font-size:1em;
+}
+
+/* Layout
+---------------------------------------*/
+div#pageWrapper {
+
+	width: 100%;
+	margin: 0 auto -35px;
+	padding:0px;
+	height:auto !important; /* real browsers */
+	height:99.9%; /* IE6: treaded as min-height*/
+	min-height:99.9%; /* real browsers */
+	_height:98.1%;
+}
+
+div#header {
+	background:transparent url(/adminimages/placeholder/headerBg.jpg) repeat-x top left;
+	/*height:100px;*/
+	float:left;
+	width:100%;
+}
+div#main{		
+	margin:10px 0;
+    float:left;
+	width:100%;
+}
+div#globalFooter{
+	border-top:1px solid #ed1e26;
+	background-color:#ebebeb;
+	color:#333333;
+	height:35px;
+	margin:0 auto;
+	padding:0;
+	font-size:1.1em;
+}
+
+/* Header Formatting
+---------------------------------------*/
+img#logo {
+	margin:0;
+	padding:5px 0 18px 10px;
+}
+div#header h1 {
+	float:left;
+}
+
+/* Global Footer
+---------------------------------------*/
+div.copyRight{
+	float:left;
+	padding:12px 0 0 25px;
+}
+div.siteCreated{
+	padding:12px 25px 0 0;
+	float:right;
+}
+div#globalFooter, .push {
+	clear:both;
+	height:35px;
+}
+/* Curved box starts
+---------------------------------------*/
+div.curvedMainBox{
+	padding:0 23px;
+}
+/* Curved box end
+---------------------------------------*/

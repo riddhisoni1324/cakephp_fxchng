@@ -1,0 +1,1 @@
+<?phpApp::uses('FormAuthenticate', 'Controller/Component/Auth');class AdminAuthenticate extends FormAuthenticate {}?>

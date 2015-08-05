@@ -1,0 +1,492 @@
+body
+{
+    background: url(/adminimages/insidebg.jpg) repeat-x left top #E5E3E3;
+    margin: 0px;
+    padding: 3px 0px 0px 0px;
+}
+img
+{
+    border: 0px;
+}
+p
+{
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+}
+.flot-left
+{
+    float: left;
+}
+.flot-right
+{
+    float: right;
+}
+.textfiled
+{
+    width: 258px;
+    border: 1px solid #DDDDDD;
+    height: 20px;
+}
+.textfiled:hover
+{
+    border: 1px solid #666666;
+}
+a
+{
+    color: #333333;
+}
+a:hover
+{
+    color: #9C0001;
+}
+.bold
+{
+    font-weight: bold;
+}
+.text-right
+{
+    text-align: right;
+}
+.text-left
+{
+    text-align: left;
+}
+.text-top
+{
+    vertical-align: top;
+}
+.text-bottom
+{
+    vertical-align: bottom;
+}
+.highlight
+{
+    color: #900;
+}
+.headertxt
+{
+    font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	color:#003366;
+}
+/******************************************************************************
+		header Classes
+******************************************************************************/
+#topnavi
+{
+    height: 28px;
+    vertical-align: top;
+}
+
+.topnavi
+{
+    background-color: #5B0000;
+    padding: 0px 10px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+a.topnavi
+{
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: underline;
+}
+a.topnavi:hover
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+/******************************************************************************
+		Header Classes
+******************************************************************************/
+#header
+{
+    background: url(/adminimages/headerbg.jpg) repeat-x left top;
+}
+#header .logo
+{
+    padding-left: 12px;
+}
+
+#navigation
+{
+    background-color: #333333;
+    line-height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-left: 1px solid #D1D0D0;
+    border-right: 1px solid #D1D0D0;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+ul.navi
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul.navi li
+{
+    color: #FFFFFF;
+    display: inline;
+}
+ul.navi li a
+{
+    color: #FFFFFF;
+    padding: 0px 20px;
+    float: left;
+    margin-right: 1px;
+    text-decoration: none;
+}
+ul.navi li a:hover, ul.navi li a.selected
+{
+    background-color: #CC6600;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+}
+
+
+
+/*============================================================================
+		Center Part
+============================================================================*/
+#centerpart
+{
+	border-left:1px solid #DCDADA;
+	border-right:1px solid #DCDADA;
+	background-color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;	
+    font-size: 11px;
+    line-height: 17px;
+    color: #333333;
+    background: url(/adminimages/insidebott.jpg) bottom center no-repeat #ffffff;
+}
+.clrgrey
+{
+    color: #999999;
+}
+#centerpart .centerbg {
+	background:url(../adminimages/centerbg.jpg) repeat-x left top;
+	padding:15px;
+	font-size:11px;
+	line-height:17px;
+	color:#333333;
+}
+#centerpart .topheading {
+	font-size:14px;
+	padding-left:20px;
+	color:#333333;
+	line-height:48px;
+}
+#centerpart .centerbg a
+{
+    color: #333333;
+    text-decoration: underline;
+}
+#centerpart .centerbg a:hover
+{
+    color: #333333;
+    text-decoration: none;
+}
+
+#powered_by
+{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+
+/* ==================================================== */
+.level1
+{
+    padding: 0px;
+}
+
+.level1 a
+{
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 0px 20px;
+    float: left;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.level1 a:hover, .level1 a.selected
+{
+    background-color: #CC6600;
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+}
+.level2
+{
+    margin: 0px 0px 0px 8px;
+}
+.level2 a
+{
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 0px 20px;
+    float: left;
+    margin-right: 1px;
+    width: 150px;
+    display: block;
+    cursor: pointer;
+}
+.level2 a:hover, .level2 a.selected
+{
+    background-color: #CC6600;
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+}
+.level3 a
+{
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 0px 20px;
+    float: left;
+    margin-right: 1px;
+    width: 150px;
+    cursor: pointer;
+}
+.level3 a:hover, .level1 a.selected
+{
+    background-color: #CC6600;
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+}
+.gridheading
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+.gridbdr1 .gridheading a
+{
+    font-weight: bold;
+    color: Maroon;
+    text-decoration: none;
+}
+.gridbdr1 td
+{
+    border-width: 0px;
+    height: 30px;
+}
+.altergrid
+{
+    background-color: #f5f5f5;
+}
+.gridbdr1 tr:hover
+{
+    background:#FFFFE4;    
+    cursor: pointer;
+}
+.gridbdr
+{
+    border: solid 1px #d5d5d5;
+    border-collapse: collapse;
+}
+.gridbdr .heading
+{
+    background: #EEECD5;
+    font-weight: bold;
+}
+.textbx
+{
+    font-size: 10px;
+    background: #ffffff;
+    border: 1px solid #acacac;
+    margin: 2px;
+    color: #333333;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ddlbox
+{
+    font-size: 10px;
+    color: #333333;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.PanHeader
+{
+    padding: 10px;
+    margin-bottom: 20px; /*background-color: #ffc;*/
+}
+
+#pagetitle
+{
+    float: left;
+}
+
+#PageDescription
+{
+    margin-top: 30px; /*background-color: #ffc;*/
+    clear: both;
+}
+
+#col2
+{
+    float: right;
+}
+
+#col1
+{
+    float: left;
+    width: auto;
+}
+.PanError
+{
+    background-color: #ffc;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    padding: 10px 10px 10px 35px;
+    background-image: url( '/adminimages/icon_error.gif' );
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-weight: 600;
+    color: #C00;
+    margin-bottom: 20px;
+}
+.PanSuccess
+{
+    background-color: #ffc;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    padding: 10px 10px 10px 35px;
+    background-image: url( '/adminimages/icon_info.gif' );
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-weight: 600;
+    color: #060;
+    margin-bottom: 20px;
+}
+.PanAtoZ
+{
+    background-color: #ffc;
+    border: solid 1px;
+    padding: 10px 10px 10px 35px;
+    background-image: url( '/adminimages/icon_info.gif' );
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.PanNoRecord
+{
+    background-color: #ffc;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    padding: 10px 10px 10px 35px;
+    background-image: url('/adminimages/icon_alert.gif' );
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.PanSelect
+{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.PanAddUpdate
+{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.PanViewRecords
+{
+    background: url('/adminimages/system_message.gif');
+    border: 1px solid #ccc;
+    padding: 5px; /*	margin-bottom: 20px;*/
+}
+.PanSearch
+{
+    padding: 5px;
+    margin: 0px 5px 0px 5px; /*	margin-bottom: 20px;*/
+}
+/******************************************************************************
+  Buttons
+******************************************************************************/
+.button
+{
+    line-height: 26px;
+    margin: 0px;
+}
+.button a
+{
+    background: url(/adminimages/buttonright.gif) no-repeat right top;
+    display: block;
+    float: left;
+    color: #222222;
+    line-height: 26px;
+    padding: 0px 10px 0px 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button a span
+{
+    background: url(/adminimages/buttonleft.gif) no-repeat left top;
+    display: block;
+    float: left;
+    color: #222222;
+    line-height: 26px;
+    padding: 0px 8px 0px 18px;
+}
+.button a:hover
+{
+    background: url(/adminimages/buttonright.gif) no-repeat right -26px;
+    display: block;
+    color: #222222;
+}
+.button a span:hover
+{
+    background: url(/adminimages/buttonleft.gif) no-repeat left -26px;
+    display: block;
+    color: #222222;
+}
+.leftcor
+{
+    background: url(/adminimages/leftcor_img.jpg) no-repeat left top;
+}
+.rightcor
+{
+    background: url(/adminimages/rightcor_img.jpg) no-repeat right top;
+    height: 24px;
+    padding: 2px 20px 0px 20px;
+    vertical-align: top;
+}
+.bgbox
+{
+    background: url(/adminimages/bg_img.jpg) repeat-x left top;
+}
+#dashboard{ border:solid 0px #EAEAEA;}
+#dashboard .cms
+{
+	border-bottom:solid 2px #eaeaea; 
+	font-size:18px; 
+	padding:5px;
+	color:#999; 
+	font-weight:bold; 
+	font-family:Arial;
+}
+#dashboard .heading
+{
+	border-bottom:solid 2px #eaeaea; 
+	font-size:15px; 
+	color:#666; 
+	font-weight:bold; 
+	font-family:Verdana;
+}

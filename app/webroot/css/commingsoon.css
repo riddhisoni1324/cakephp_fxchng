@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0px; padding:0px; font-family: 'Raleway', sans-serif;}
+.mainarea{width:100%; margin:0px auto; background:url(../images/body_back.jpg) no-repeat center top; height:637px;}
+.page-wrap{width:980px; margin:0px auto; border:0px solid #000; min-height:400px;}
+.headerarea{width:100%; height:400px;}
+.logniarea{min-height:100px; width:430px; padding:25px 0px;  margin:30px auto 0px; background:url(../images/login_back.png) repeat left top;}
+.logniarea h1{margin:0px; padding:0px; font-size:24px; color:#242424; font-weight:normal; font-family: 'Raleway', sans-serif; text-align:center}
+.logniarea h1 span{font-size:12px; text-align:right; width:225px; text-align:right; display:inline-block;}
+.logniarea h1.thanku{font-size:30px; font-weight:800; color:#df5919;}
+.logniarea2{min-height:100px; width:430px; padding:15px 0px;  margin:30px auto 0px; background:url(../images/login_back.png) repeat left top;}
+.logniarea2 h1{margin:0px; padding:0px; font-size:24px; color:#242424; font-weight:normal; font-family: 'Raleway', sans-serif; text-align:center}
+.logniarea2 h1 span{font-size:12px; text-align:right; width:225px; text-align:right; display:inline-block;}
+.logniarea2 h1.thanku{font-size:30px; font-weight:800; color:#df5919;}
+
+.clear{clear:both;}
+.btnfacebook{width:100%; text-align:center; margin-top:10px;}
+.thankmsg{text-align:center; width:100%; font-size:19px; color:#000; margin-top:10px;}
+.thankmsg span{text-align:center; width:100%; font-size:24px; color:#000;}

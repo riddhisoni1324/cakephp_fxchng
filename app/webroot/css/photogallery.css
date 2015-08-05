@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+.captionOrange, .captionBlack {
+	color: #fff;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 4px;
+}
+.captionOrange {
+	background: #EB5100;
+	background-color: rgba(235, 81, 0, 0.6);
+}
+.captionBlack {
+	font-size: 16px;
+	background: #000;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.captionOrange:hover {
+	color: #eb5100;
+	text-decoration: underline;
+	background-color: #eeeeee;
+	background-color: rgba(238, 238, 238, 0.7);
+}
+.bricon {
+	background: url(../img/browser-icons.png);
+}
+/* ======= main css ========= */
+
+  /* jssor slider direction navigator skin 05 css */
+            /*
+            .jssord05l              (normal)
+            .jssord05r              (normal)
+            .jssord05l:hover        (normal mouseover)
+            .jssord05r:hover        (normal mouseover)
+            .jssord05ldn            (mousedown)
+            .jssord05rdn            (mousedown)
+            */
+.jssord05l, .jssord05r, .jssord05ldn, .jssord05rdn {
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(../img/d17.png) no-repeat;
+	overflow: hidden;
+}
+.jssord05l {
+	background-position: -10px -40px;
+}
+.jssord05r {
+	background-position: -70px -40px;
+}
+.jssord05l:hover {
+	background-position: -130px -40px;
+}
+.jssord05r:hover {
+	background-position: -190px -40px;
+}
+.jssord05ldn {
+	background-position: -250px -40px;
+}
+.jssord05rdn {
+	background-position: -310px -40px;
+}
+/* jssor slider thumbnail navigator skin 02 css */
+                /*
+                .jssort02 .p            (normal)
+                .jssort02 .p:hover      (normal mouseover)
+                .jssort02 .pav          (active)
+                .jssort02 .pav:hover    (active mouseover)
+                .jssort02 .pdn          (mousedown)
+                */
+.jssort02 .w {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+.jssort02 .c {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 97px;
+	height: 64px;
+	border: #000 0px solid;
+}
+.jssort02 .p:hover .c, .jssort02 .pav:hover .c, .jssort02 .pav .c {
+	background: url(../img/t01.png) center center;
+	border-width: 0px;
+	top: 2px;
+	left: 2px;
+	width: 97px;
+	height: 64px;
+}
+.jssort02 .p:hover .c, .jssort02 .pav:hover .c {
+	top: 0px;
+	left: 0px;
+	width: 97px;
+	height: 69px;
+	border: #fff 1px solid;
+}

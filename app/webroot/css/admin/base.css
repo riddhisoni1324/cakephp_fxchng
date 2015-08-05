@@ -1,0 +1,671 @@
+/*
+------------------------------------------------------
+[DesignBox - CMS] CSS: Base - Created by Ali B.
+------------------------------------------------------
+*/
+
+/* Top Nav Starts
+---------------------------------------*/
+div#header div.topNav{
+	float:right;
+}
+div#header div.topNav h2{
+	float:right;
+	padding:20px 30px 0 0;
+}
+div#header div.topNav ul{
+	float:right;
+	clear:both;
+	padding:5px 22px 0 0;
+	margin:0;
+}
+div#header div.topNav ul li{
+	float:left;
+	font-size:1.1em;
+	margin:0;
+}
+div#header div.topNav ul li a{
+	background:transparent url(../../adminimages/placeholder/divider.jpg) no-repeat scroll right 75%;
+	padding:0 10px 0 10px;
+   color:#a52a2a;
+}
+div#header div.topNav ul li a.logOut{
+	background:none;
+	color:#FF0000;
+}
+a
+{color:#a52a2a;
+    }
+/* Top Nav Ends
+---------------------------------------*/
+
+/* Primary Nav starts
+---------------------------------------*/
+ul#priNavigation {
+	float:left;
+	clear:both;
+	margin:0;
+	padding:0 0 0 20px;
+}
+ul#priNavigation li{
+	float:left;
+	display:block;
+	font-size:1.1em;
+	padding:1px 8px 0 0;
+	text-transform:uppercase;
+}
+ul#priNavigation li.activePriNav{
+	float:left;
+	display:block;
+	font-size:1.1em;
+	padding:1px 8px 0 0;
+	text-transform:uppercase;
+}
+ul#priNavigation li a
+{
+	float:left;
+	display:block;
+	background: transparent url(../../adminimages/placeholder/navLeft.jpg) left 2px no-repeat;
+	height:25px;
+	cursor:pointer;
+}
+ul#priNavigation li a span
+{
+	float:left;
+	display:block;
+	background: transparent url(../../adminimages/placeholder/navRight.jpg) right 2px no-repeat;
+	height:25px;
+	padding:0 9px;
+} 
+ul#priNavigation li a span strong
+{
+	float:left;
+	display:block;
+	background: transparent url(../../adminimages/placeholder/navMiddle.jpg) left 2px repeat-x;
+	height:25px;
+	line-height:2.7em;
+	padding:0 8px;
+} 
+ul#priNavigation li.activePriNav a
+{
+	float:left;
+	display:block;
+	background: transparent url(../../adminimages/placeholder/activeNavLeft.jpg) left top no-repeat;
+	height:25px;
+	color:#CCCCCC;
+}
+ul#priNavigation li.activePriNav a span
+{
+	float:left;
+	display:block;
+	background: transparent url(../../adminimages/placeholder/activeNavRight.jpg) right top no-repeat;
+	height:25px;
+	padding:0 9px;
+} 
+ul#priNavigation li.activePriNav a span strong
+{
+	float:left;
+	display:block;
+	background: transparent url(../../adminimages/placeholder/activeNavMiddle.jpg) left top repeat-x;
+	height:25px;
+} 
+/* Primary Nav ends
+---------------------------------------*/
+
+/* Sub Nav starts
+---------------------------------------*/
+div.subNav{
+	padding:0 0 0 16px;
+	background:transparent url(../../adminimages/placeholder/subNavBg.jpg) repeat-x top left;
+	height:29px;
+	clear:both;
+}
+div.subNav ul li{
+	background:transparent url(../../adminimages/placeholder/subNavDivider.jpg) no-repeat scroll right 100%;
+	float:left;
+	font-size:1.1em;
+	letter-spacing:0.1em;
+	padding:9px 10px 0 10px;
+	color:#cccccc;
+}
+div.subNav ul li.subNavLast{
+	background: none;
+}
+div.subNav ul li a{
+	color:#cccccc;
+}
+div.subNav ul li a:hover{
+	color:#cccccc;
+}
+/* Sub Nav ends
+---------------------------------------*/
+
+/* BreadCrumbs starts
+---------------------------------------*/
+div#breadCrumbs{
+	float:left;
+	width:89%;
+	padding:10px 0 0 18px;
+}
+div#breadCrumbs ul li{
+	background:transparent url(../../adminimages/placeholder/breadCrumbArrow.jpg) no-repeat scroll right 60%;
+	float:left;
+	font-size:1.0em;
+	letter-spacing:0.1em;
+	padding:0 0 0 8px;
+}
+div#breadCrumbs ul li.breadCrumbLast{
+	background:none;
+}
+div#breadCrumbs ul li.breadCrumbLast a{
+	text-decoration:none;
+}
+div#breadCrumbs ul li a{
+	padding:0 10px 0 0;
+	color:#a8a8a8;
+	text-decoration:underline;
+}
+div.help{
+	float:left;
+	padding:4px 10px 0 0;
+}
+div.help a{
+	text-decoration:underline;
+	font-size:1.0em;
+	float:left;
+	padding:2px 0 0 0;
+}
+/* BreadCrumbs ends
+---------------------------------------*/
+
+
+/* Dasboard page starts
+---------------------------------------*/
+div.dashBoard {
+	width: 100%;
+	background-color: #eeeeee;
+	color: #000000;
+}
+div.dashBoard div.dashBoardMainContainer {
+	float:left;
+	width:98%;
+	padding:0 10px;
+}
+div.dashBoard div.dashBoardMainContainer div.dashBoardLeft {
+	float:left;
+	width:64%;
+	margin:0 1% 0 0;
+	padding:0 0 15px 0;
+	border:1px solid #e1e1e1;
+	background:#FFFFFF;
+}
+div.dashBoardSections{
+	/*margin:0 15px 0 15px;*/
+	padding:15px 0 15px 0;
+	float:left;
+	width:94%;
+/*	border-bottom:1px solid #ebebeb;*/
+}
+div.dashBoardSections div.dashBoardIcons{
+	float:left;
+	padding:0 10px 0 10px;
+}
+div.dashBoardSections div.dashBoardNav{
+	float:left;
+	width:80%;
+}
+div.dashBoardSections div.dashBoardNav ul{
+	float:left;
+	width:100%;
+}
+div.dashBoardSections div.dashBoardNav ul li{
+	background:transparent url(../../adminimages/placeholder/dashNavPipe.jpg) no-repeat right 75%;
+	float:left;
+	color:#999999;
+	font-size:1.1em;
+}
+div.dashBoardSections div.dashBoardNav ul li.last{
+	background:none;
+}
+div.dashBoardSections div.dashBoardNav ul li.subItems{
+	background:none;
+	padding:1px 0 0 0;
+}
+div.dashBoardSections div.dashBoardNav ul li.logOut{
+	background:none;
+}
+div.dashBoardSections div.dashBoardNav ul li a{
+	color:#a52a2a;
+	text-decoration:none;
+	padding:0 5px 0 5px;
+}
+div.dashBoardSections div.dashBoardNav h4{
+	color:#666666;
+	
+}
+div.dashBoard div.dashBoardMainContainer div.dashBoardRight {
+	float:right;
+	width:34%;
+	margin:0;
+	border:1px solid #e1e1e1;
+}
+div.rightNavSections  {
+	width: 100%;
+}
+div.rightNavSections h5 {
+	cursor:pointer;
+	display:block;
+}
+div.rightNavSections div.rightNavContentArea {
+	width:100%;
+	background:#FFFFFF;
+}
+div.rightNavSections div.rightNavContentArea table{
+	margin:0 10px 0 10px;
+	font-size:1.1em;
+}
+div.rightNavSections div.rightNavContentArea table thead th{
+	border-bottom:1px solid #333333;
+	width:45%;
+	padding:8px 0;
+}
+div.rightNavSections div.rightNavContentArea table tbody tr td{
+	border-bottom:1px solid #f1f1f1;
+	padding:8px 0;
+}
+div.rightNavSections div.rightNavContentArea table tbody tr td a{
+	text-decoration:underline;
+}
+/* Dasboard page ends
+---------------------------------------*/
+
+/* Global container starts
+---------------------------------------*/
+div.globalContainer{
+	margin:0;
+	padding:8px 0 6px 10px;
+	font-size:1.2em;
+}
+div.globalContainer table{
+	margin:0;
+	padding:;
+	width:99%;
+	border:1px solid #e1e1e1;
+}
+div.globalContainer table thead{
+	font-size:1.2em;
+	color:#333333;
+	height:33px;
+	background:transparent url(../../adminimages/placeholder/globalHeaderBg.jpg) repeat-x top left;
+	border-bottom:1px solid #e1e1e1;
+}
+div.globalContainer table thead th{
+	padding:8px 0 0 15px;
+	margin:0;
+	border-right:1px solid #e1e1e1;
+}
+div.globalContainer table thead th.pagesCol{
+	width:35%;
+}
+div.globalContainer table thead th.cTypeCol, 
+div.globalContainer table thead th.dateCol,
+div.globalContainer table thead th.positionCol{
+	width:17%;
+}
+div.globalContainer table thead th.ownerCol, 
+div.globalContainer table thead th.statusCol, 
+div.globalContainer table thead th.editCol, 
+div.globalContainer table thead th.previewCol,
+
+div.globalContainer table thead th.statusCol,
+div.globalContainer table thead th.deleteCol{
+	width:7%;
+}
+div.globalContainer table thead th.permissionCol,
+div.globalContainer table thead th.assignUsersCol{
+	width:10%;
+}
+div.globalContainer table tbody tr td {
+	font-size:0.9em;
+	padding:2px 15px 6px 15px;
+	border-right:1px solid #e1e1e1;
+	border-bottom:1px solid #e1e1e1;
+}
+div.globalContainer table tbody tr td div{
+	float:right;
+	padding:4px 0 0 0;
+}
+div.globalContainer table tbody tr td div.subNodeInput{
+	width:60px;
+	float:left;
+	padding:4px 0 0 0;
+}
+div.globalContainer table tbody tr td img.addNode {
+	padding:0 5px 0 0;
+}
+div.globalContainer table tbody tr td.subNode {
+	padding:2px 30px 6px 30px;
+}
+div.globalContainer table tbody tr td input {
+	border:1px solid #CCCCCC;
+	margin:0 0 0 15px;
+	padding:0 2px 0 0;
+	width:20px;
+	text-align:center;
+}
+div.globalContainer table tbody tr td input.checkBox, div.globalContainer table thead th input.checkBox {
+	text-align:center;
+	padding:0 2px 0 0;
+	margin:0px;
+	width:auto;
+	border:none;
+}
+div.globalContainer table tbody tr.even {
+  background-color: #ffffff;
+}
+div.globalContainer table tbody tr.odd {
+  background-color: #f7f7f7;
+}
+div.globalContainer table tbody tr td div.thechoices {
+	float:right;
+	text-align:right;
+	width:270px;
+}
+div.globalContainer table tbody tr td div.withSelected label {
+	font-size:1.0em;
+	padding:3px 0 0 1px;
+}
+div.globalContainer table tbody tr td div.withSelected select {
+	border:1px solid #9EB4C7;
+	font-size:1.0em;
+	margin:0 0 0 5px;
+	width:123px;
+	float:left;
+}
+div.globalContainer table tbody tr td div.withSelected input.submitBtn {
+	border:none;
+	margin:0 0 0 5px;
+	padding:0;
+	width:53px;
+}
+/* Global container ends
+---------------------------------------*/
+
+
+/* News container starts
+---------------------------------------*/
+div.globalContainer ul.newsBlock{
+	margin:10px 0 0 0;
+	float:left;
+	width:95%;
+}
+div.globalContainer ul.newsBlock li{
+	padding:0 0 10px 0;
+	float:left;
+	clear:both;
+	font-size:1em;
+	width:100%;
+}
+div.globalContainer ul.newsBlock li div#newsBriefEditor{
+	margin:10px 0 0 0;
+	float:left;
+	clear:both;
+}
+div.globalContainer ul.newsBlock li div#newsBriefEditor1{
+	margin:10px 0 0 0;
+	float:left;
+	clear:both;
+}
+div.globalContainer ul.newsBlock li div#newsBriefEditor ul li{
+	padding:0 0 5px 0;
+	margin:0;
+}
+div.globalContainer ul.newsBlock li div#newsBriefEditor ul li textarea{
+	width:203px;
+	height:100px;
+}
+div.globalContainer ul.newsBlock li div#newsBriefEditor1 ul li textarea{
+	width:203px;
+	height:100px;
+}
+div.globalContainer ul.newsBlock li label{
+	width:100px;
+	padding:3px 0 0 0;
+}
+div.globalContainer ul.newsBlock li input{
+	float:left;
+	font-size:1em;
+	width:200px;
+	color:#333333;
+}
+div.globalContainer ul.newsBlock li input.newsBrief{
+	border:none;
+	margin:2px 0 0 3px;
+	padding:0;
+	width:auto;
+}
+div.globalContainer ul.newsBlock li select{
+	font-size:1em;
+	width:205px;
+}
+
+/* News container ends
+---------------------------------------*/
+div.globalContainer ul.newsBlock li ul.tabNavigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float:left;
+}
+div.globalContainer ul.newsBlock li ul.tabNavigation li {
+	display:inline;
+	float:none;
+	margin:0;
+	padding:0;
+}
+div.globalContainer ul.newsBlock li ul.tabNavigation li a {
+	color: #333333;
+	display:inline-block;
+	text-decoration: none;
+	padding:5px;
+	border:1px solid #e1e1e1;
+}
+div.globalContainer ul.newsBlock li ul.tabNavigation li a.selected {
+	background-color: #dcdcdc;
+}
+div.globalContainer ul.newsBlock li div.tabs input.editor{
+	width:735px;
+	padding: 0 10px 10px 10px;
+	border:none;
+}
+div.globalContainer ul.newsBlock li div.tabs input.upload{
+	margin: 0 250px 10px 10px;
+	font-size:0.9em;
+	width:400px;
+}
+div.globalContainer ul.newsBlock li div.tabs p{
+	padding: 0 10px 10px 10px;
+}
+div.globalContainer ul.newsBlock li div.tabs{
+	float:left;
+}
+div.globalContainer ul.newsBlock li div.tabs div {
+	float:left;
+	border:1px solid #e1e1e1;
+}
+div.globalContainer ul.newsBlock li div.tabs div h2 {
+	padding: 10px;
+}
+#first {
+	clear:both;
+	/*width:95%;*/
+}
+#second {
+	clear:both;
+	width:95%;
+}
+
+/*Add New Page CSS*/
+div.globalContainer ul.addNewPage{
+	width:46%;
+	float:left;
+	margin:10px 0 0 0;
+}
+div.globalContainer ul.addNewPage li{
+	margin:0 0 10px 0;
+}
+div.globalContainer ul.addNewPage li label {
+	padding:3px 0 0;
+	width:160px;
+}
+div.globalContainer ul.addNewPage li input {
+	color:#333333;
+	font-size:1em;
+	width:200px;
+}
+div.globalContainer ul.addNewPage li select {
+	font-size:1em;
+	width:100px;
+}
+div.globalContainer ul.addNewPageEditor{
+	width:98%;
+	float:left;
+	margin:20px 0;
+}
+div.globalContainer ul.addNewPageEditor li{
+	margin:0 0 25px 0;
+}
+div.globalContainer ul.addNewPageEditor li.floatLeft{
+	width:72%;
+}
+div.globalContainer ul.addNewPageEditor li.floatLeft p{
+	float:left;
+}
+div.globalContainer ul.addNewPageEditor li label{
+	width:100%;
+	padding:0 0 10px 0;
+}
+div.globalContainer ul.addNewPageEditor li img{
+	clear:both;
+}
+div.globalContainer ul.addNewPageEditor li label.active{
+	padding:3px 0 0 1px;
+	width:40px;
+}
+div.globalContainer ul.addNewPageEditor li input.checkbox{	
+	border:none;
+}
+div.globalContainer ul.addNewPageEditor li a{
+	color:#cc0000;
+}
+
+
+
+/*Add New Album CSS*/
+div.globalContainer ul.addNewAlbum, div.globalContainer ul.imageBlock{
+	width:46%;
+	float:left;
+	margin:10px 0 0 0;
+}
+div.globalContainer ul.addNewAlbum li{
+	margin:0 0 10px 0;
+}
+div.globalContainer ul.addNewAlbum li label {
+	padding:3px 0 0;
+	width:160px;
+}
+div.globalContainer ul.addNewAlbum li input {
+	color:#333333;
+	font-size:1em;
+	width:200px;
+}
+div.globalContainer ul.addNewAlbum li textarea {
+	color:#333333;
+	font-size:1em;
+	width:200px;
+}
+div.globalContainer ul.addNewAlbum li img.addAlbum{
+	margin:0 0 0 156px;
+}
+div.globalContainer ul.addNewAlbum li select {
+	border:1px solid #9EB4C7;
+	font-size:1em;
+	margin:0;
+	width:200px;
+}
+div.globalContainer ul.imageBlock li{
+	margin:0 0 10px 0;
+	float:left;
+	width:120px;
+}
+div.globalContainer ul.imageBlock li label {
+	padding:0 0 2px 0;
+	width:100px;
+}
+
+/*Manage Users CSS*/
+div.globalContainer div.manageUserBlock, div.globalContainer div.managePrivilage{
+	float:left;
+	width:46%;
+}
+div.globalContainer ul li h2{
+	padding:0 0 10px 0;
+}
+div.globalContainer ul.managePassword, div.globalContainer ul.enterAccount{
+	float:left;
+	margin:0;
+	padding:20px 0 0 0;
+}
+div.globalContainer ul.managePassword li, div.globalContainer ul.enterAccount li{
+	margin:0 0 10px 0;
+}
+div.globalContainer ul.managePassword li label, div.globalContainer ul.enterAccount li label {
+	padding:3px 0 0;
+	width:160px;
+}
+div.globalContainer ul.managePassword li input, div.globalContainer ul.enterAccount li input {
+	color:#333333;
+	font-size:1em;
+	width:200px;
+}
+div.globalContainer ul.managePassword li img.addAlbum, div.globalContainer ul.enterAccount li img.addAlbum{
+	margin:0 0 0 158px;
+}
+div.globalContainer ul.privileges{
+	width:46%;
+	float:left;
+	margin:10px 0 0 0;
+}
+div.globalContainer ul.privileges li h2{
+	padding:0 0 10px 0;
+}
+div.globalContainer ul.privileges li{
+	margin:0 0 10px 0;
+}
+div.globalContainer ul.privileges li label {
+	padding:3px 0 0;
+	float:none;
+}
+div.globalContainer ul.privileges li checkbox {
+	padding:0;
+	margin:0;
+	float:left;
+	border:none;
+}
+.folatleftdashboad{ float:left; width:600px;}
+.dashboadright{ float:left; padding:10px; font-size:12px; width:350px!important;}
+.hadding{ font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold;}
+.tablea{ border:#e1e1e1 solid 1px;}
+.tablea td{ padding:6px 5px 8px 8px; border-bottom:#e1e1e1 solid 1px; font-size:12px; border-right:#e1e1e1 solid 1px;}
+.tablea th{background:transparent url(../../adminimages/bg_admin_hd.jpg) repeat-x top left; padding:6px 8px 8px 8px; vertical-align:top; border-right:#e1e1e1 solid 1px;}
+.clear{ clear:both;}
+
+
+
+
+
+
+
+
+
+

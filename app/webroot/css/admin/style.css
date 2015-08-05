@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+/* ========== Do Not Touch In Css Strat ========== */
+@import url("reset.css");
+@import url("fonts.css");
+@import url("base.css");
+body{ background:#7db7e6; padding:100px 0px 0px 0px;}
+p {margin:0px; padding:0px 0px 18px 0px;}
+#page-wrap {width:957px; margin:0px auto;}
+.floatleft {float:left;}
+.floatright {float:right;}
+.clear {clear:both;}
+.bold {font-weight:bold;}
+a {text-decoration:none; color:#016285;}
+a:hover, a.selected {text-decoration:none; color:#000000;}
+ul {list-style:none;}
+li {list-style:none;}
+.bodybg{ background:url(../adminimages/bg_body.jpg) repeat-x left top #fafafa; margin:0px; padding:20px 0px 0px 0px;}
+/* ========== Do Not Touch In Css End ========== */
+.loginpage { }
+.loginpage .leftside{ text-align:center; width:590px; padding-right:10px;}
+.logo{padding:5px 0px 27px 0px; vertical-align:top;}
+.loginpage h1{ font-family: 'Kaushan Script', cursive; font-size:45px; color:#fff; line-height:50px; margin-bottom:43px;}
+.loginpage h1 span { font-size:33px; color:#c60d0b; }
+.loginpagebg{ background:url(../adminimages/login_bg.png) no-repeat top center; padding:30px 33px 37px 33px;}
+.user { background:url(../adminimages/img_input_text.png) no-repeat top left; height:40px; width:317px; padding:0px 5px;}
+.inputtext { font-family: 'Droid Sans', sans-serif; font-size:14px; color:#3b3b3b; padding:15px 0px 6px 0px; }
+.inputtext a { font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#2c6899;}
+.loginpage input { background:none; border:none; width:300px;}
+.loginpage input[type="password"] { background:none; border:none; width:300px;}
+.paddtop5{ padding-top:5px;}
+
+
+
+/* ------- Top Area Strat ------- */
+/* ------- Top Area End ------- */
+
+/* ------- Navigation Area Strat ------- */
+/* ------- Navigation Area End ------- */
+
+/* ------- Pages Contener Area Strat ------- */
+
+
+/* ..... Home Page Contener Area Strat ..... */
+.container { }
+.leftnavi ul{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#565656;  padding:7px 13px 10px 19px; margin:0px;}
+.leftnavi ul li{ list-style:none; margin:0px; padding:0px; background:url(../adminimages/arrow_leftnavi.png) no-repeat left center; line-height:26px; padding-left:18px; color:#565656;}
+.leftnavi ul li a{ color:#565656;}
+.topnavi { text-align:right; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000000; padding-right:20px;}
+.topnavi span { padding:0px 14px 0px 14px; }
+.topnavi a { color:#2c6899; }
+.containergraybgtop { background:url(../adminimages/gray_bg_top.png) no-repeat top center; height:11px;}
+.containergraybgcenter { background:url(../adminimages/gray_bg_center.png) repeat-y; }
+.containerbgtop { background:url(../adminimages/white_bg_top.png) no-repeat top center;height:6px;}
+.containerbgcenter { background:url(../adminimages/white_bg_center.png) repeat-y; }
+.containerbgbottom { background:url(../adminimages/white_bg_bottom.png) no-repeat bottom center; height:11px;}
+.containerlogo{ padding:6px 0px 12px 16px; vertical-align:top;}
+.breadcrumb { text-align:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; padding:10px 0px 17px 14px; }
+.breadcrumb a { color:#000000;}
+.breadcrumb span { padding-left:5px;}
+.breadcrumbarrow { padding-left:14px;}
+.adduser {}
+.adduserform { background:url(../adminimages/adduser_inputtext.png) no-repeat top left; height:29px; width:390px; padding:0px 5px;}
+.addinputtext { font-family: 'Droid Sans', sans-serif; font-size:14px; color:#3b3b3b; padding:15px 0px 6px 0px; }
+.adduser h1 { font-family:Droid Sans,sans-serif; font-size:24px; font-weight:normal; color:#000000;}
+.form { margin-top:27px; font-family: 'Droid Sans', sans-serif; font-size:14px; color:#3b3b3b;}
+.form td {}
+.addusertopbg { background:url(../adminimages/contentbg_top.jpg) no-repeat top center; height:5px; }
+.addusercenterbg { background:url(../adminimages/contentbg_center.jpg) repeat-y; padding:15px 0px 21px 27px;}
+.adduserbottombg { background:url(../adminimages/contentbg_bottom.jpg) no-repeat bottom center; height:5px;}
+
+
+
+.leftnavi { margin-bottom:10px;}
+.leftnavibgtop { background:url(../adminimages/leftnavi_bgtop.jpg) no-repeat top left; height:5px;}
+.leftnavibgcenter { background:url(../adminimages/leftnavi_bgcenter.jpg) repeat-y; padding:0px 4px; }
+.leftnavibgbottom { background:url(../adminimages/leftnavi_bgbottom.jpg) no-repeat bottom left; height:5px;}
+.leftnavittlleft { background:url(../adminimages/ttl_bg_left.jpg) no-repeat top left; width:3px; height:32px;}
+.leftnavittlcenter { background:url(../adminimages/ttl_bg_center.jpg) repeat-x; padding:4px 3px 4px 3px;}
+.leftnavittlright { background:url(../adminimages/ttl_bg_right.jpg) no-repeat top right; width:3px; height:32px;}
+.filter { border-top: solid 1px #dddddd; border-bottom: solid 1px #dddddd;}
+.filter ul { font-family: Droid Sans, sans-serif; font-size:13px; color:#8c8c8c; padding:0px; }
+.filter ul li { float:left; margin:0px; padding:0px; background:none; text-align:center; width:20px; line-height:17px; margin:3px 1px;}
+.filter ul li.selected { background:url(../adminimages/selected.jpg) no-repeat left top; }
+.filter ul li.selected a { color:#ffffff;}
+.filter a {color:#8c8c8c;}
+
+
+.pagination {}
+.pagination ul { font-family: Droid Sans, sans-serif; font-size:13px; color:#8c8c8c; padding:0px; }
+.pagination ul li { float:left; list-style:none; margin:0px; padding:0px; background:none; padding:0px 7px 0px 7px; line-height:16px; height:17px; }
+.pagination ul li.selected { background:url(../images/selected.jpg) no-repeat left top; }
+.pagination ul li.selected a { color:#ffffff;}
+.pagination a { text-decoration:none; color:#8c8c8c;}
+.pagination ul li img{ padding:2px 3px 0px 3px;}
+.paginationbtm { float:right;}
+.paginationbtm ul { font-family: Droid Sans, sans-serif; font-size:13px; color:#8c8c8c; padding:8px 0px 0px 0px; margin:0px; }
+.paginationbtm ul li { float:left; list-style:none; margin:0px; padding:0px; background:none; padding:0px 7px 0px 7px; line-height:16px; height:17px; }
+.paginationbtm ul li.selected { background:url(../images/selected.jpg) no-repeat left top; }
+.paginationbtm ul li.selected a { color:#ffffff;}
+.paginationbtm a { text-decoration:none; color:#8c8c8c;}
+.paginationbtm ul li img{ padding:2px 3px 0px 3px;}
+
+.view { font-family: Droid Sans, sans-serif; font-size:14px; color:#3b3b3b; padding-right:10px;} 
+.viewinputtext {background:url(../adminimages/inputtext_view.jpg) no-repeat left top; height:29px; width:130px; padding:0px 5px;}
+.category { font-family: Droid Sans, sans-serif; font-size:14px; color:#3b3b3b; background:url(../adminimages/inputtext_category.jpg) no-repeat; }
+.categoryinputtext { background:url(../adminimages/inputtext_category.jpg) no-repeat;}
+.edit { background:url(../adminimages/icon_edit.png) no-repeat left top;  height:13px; width:12px; padding:5px 5px;}
+.table { border:solid 1px #d7d7d7; text-align:left; border-right:none;}
+.table td{ padding:8px 16px; color:#707070;  border-right:#d7d7d7 solid 1px;}
+.table td a{ color:#2c6899;}
+.table thead td{ border-bottom:#d7d7d7 solid 1px; color:#3b3b3b; font-size:14px;}
+.tableodd { background-color:#ffffff;}
+.tableeven { background-color:#f3f2f4;}
+.tablettl  { background-color:#ececec;  font-family: Droid Sans, sans-serif; font-size:14px; color:#3b3b3b; padding:7px; }
+.containerarea{ vertical-align:top; padding:0px 0px 0px 7px;}
+.breadcrumbpad{padding:0px 15px 15px 0px;}
+/* ..... Home Page Contener Area End ..... */
+
+/* ..... Inner Page Contener Area Strat ..... */
+/* ..... Inner Page Contener Area End ..... */
+/* ------- Pages Contener Area End ------- */
+
+/* ------- Footer Area Strat ------- */
+.footer{ text-align:center; font-size:13px; color:#000000; padding:104px 0px 18px 0px;}
+.footer a{ color:#2c6899;}
+.footer a:hover{ color:#000000;}
+
+.adduserfooter{ text-align:center; font-size:13px; color:#000000; padding:18px 0px 18px 0px;}
+.adduserfooter a{ color:#2c6899;}
+.adduserfooter a:hover{ color:#000000;}
+/* ------- Footer Area End ------- */
+input[type="text"] { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:#FFF; border:#e7e7e7 solid 1px; height:27px; border-top:#969696 solid 1px; width:380px; padding:0px 5px; margin:5px 0px 13px 0px;}
+input[type="password"] { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:#FFF; border:#e7e7e7 solid 1px; height:27px; border-top:#969696 solid 1px; width:380px; padding:0px 5px; margin:5px 0px 13px 0px;}
+.loginpagebg input[type="text"] { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:#FFF; border:#e7e7e7 solid 1px; height:40px; border-top:#969696 solid 1px; width:317px; padding:0px 5px; margin:2px 0px 10px 0px;}
+.loginpagebg input[type="password"] { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:#FFF; border:#e7e7e7 solid 1px; height:40px; border-top:#969696 solid 1px; width:317px; padding:0px 5px; margin:2px 0px 10px 0px;}
+textarea { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:#FFF; border:#e7e7e7 solid 1px; border-top:#969696 solid 1px; width:380px; padding:0px 5px; margin:5px 0px 13px 0px;}
+
+
+.tick{
+    background-image: url("../adminimages/icon-tick.gif");
+    background-position: 3px 0;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    height: 20px;
+    line-height: 15px;
+    margin: 5px 0;
+    padding: 0 10px 0 30px;
+}
+select{
+border:#e7e7e7 solid 1px;
+}
+select, textarea, input{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#3b3b3b;}
+input[type="Button"] {  background:#cccccc; border:#e7e7e7 solid 1px;}

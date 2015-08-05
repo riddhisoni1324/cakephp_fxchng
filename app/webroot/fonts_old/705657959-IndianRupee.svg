@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg"
+><metadata
+></metadata
+><defs
+><font horiz-adv-x="1065"
+><font-face font-family="Indian Rupee" units-per-em="2048" ascent="1565" descent="-483"
+></font-face
+><missing-glyph horiz-adv-x="1240" d="M77 1493H1039V1491Q954 1360 943 1351H686Q739 1289 758 1200H1032Q1037 1199 1037 1196Q945 1058 943 1058H765Q759 987 697 887Q615 786 540 756Q400 689 272 689V687Q272 677 851 0H596Q32 657 32 660V793L34 798Q84 791 151 791Q467 791 544 996Q556 1026 556 1058H-16Q-20 1058 -20 1062Q75 1200 77 1200H531V1202Q492 1281 380 1325Q300 1351 236 1351H-18V1356Q74 1493 77 1493ZM4262 1469V1469V1469V1469V1469Z"
+></missing-glyph
+><glyph unicode=" " horiz-adv-x="600" d=""
+></glyph
+><glyph unicode="_" horiz-adv-x="1240" d=""
+></glyph
+><glyph unicode="`" horiz-adv-x="1474" d="M77 1493H1039V1491Q954 1360 943 1351H686Q739 1289 758 1200H1032Q1037 1199 1037 1196Q945 1058 943 1058H765Q759 987 697 887Q615 786 540 756Q400 689 272 689V687Q272 677 851 0H596Q32 657 32 660V793L34 798Q84 791 151 791Q467 791 544 996Q556 1026 556 1058H-16Q-20 1058 -20 1062Q75 1200 77 1200H531V1202Q492 1281 380 1325Q300 1351 236 1351H-18V1356Q74 1493 77 1493ZM4262 1469V1469V1469V1469V1469Z"
+></glyph
+></font
+></defs
+><g style="font-family: &quot;Indian Rupee&quot;; font-size:50;fill:black"
+><text x="20" y="50"
+>!&quot;#$%&amp;&#39;()*+,-./0123456789:;&#229;&lt;&gt;?</text
+><text x="20" y="100"
+>@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_</text
+><text x="20" y="150"
+>` abcdefghijklmnopqrstuvwxyz|{}~</text
+></g
+></svg
+>

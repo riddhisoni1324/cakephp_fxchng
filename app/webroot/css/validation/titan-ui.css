@@ -1,0 +1,56 @@
+.titan-validation-msg{
+    color:#FFF;
+    background-color:#3a64bb;
+    font-size: 10px;
+    padding:3px;
+    clear:both;
+    margin-bottom:5px !important;
+    padding-left:6px;
+    padding-right:6px;
+    margin-top:5px;
+    border-radius:2px;
+}
+.titan-validation-msg.error{
+    background-color:#c60f13;
+}
+
+/* Titan Dialog */
+.titan-dialog-back {
+    background-color: #222;
+    opacity: 0.95;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute !important;
+    z-index: 999998;
+    padding: 15px;
+    display: none;
+}
+
+.titan-dialog {
+    background-color: white;
+    left: 50%;
+    top: 7%;
+    margin-left: -175px;
+    width: 350px;
+    position: fixed;
+    z-index: 999999;
+    padding: 15px;
+    display: none;
+    box-shadow: 0 0 10px #111;
+    max-height:100% !important;
+    overflow: auto;
+}
+
+.titan-close{
+    position:absolute;
+    margin-top:-5px;
+    right:10px;
+    color:red;
+    z-index: 9999;
+    height:16px;
+    width:16px;
+    /*background-image:url('../../images/common/dialog_close.png');
+    background-repeat: no-repeat;*/
+}

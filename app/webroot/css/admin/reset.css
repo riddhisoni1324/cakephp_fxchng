@@ -1,0 +1,69 @@
+/*
+-----------------------------------------------
+DesignBox - CMS CSS: Reset
+Special thanks to Eric Meyer http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+Version: 1.0
+----------------------------------------------- */
+html, body, div,  applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form,  legend,
+caption {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+}
+/* remember to define focus styles! */
+:focus {
+	/*outline: 0;*/
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* Cope with font squishing */
+li li, li p, li dt, li dd, li address, 
+dt li, dd li, dt p, dd p,
+p, blockquote p, 
+td td, td p, td li, td dt, td dd
+{ font-size: 1em; }
+
+.tablegrid tr:hover{background:#EDF1F3;}
+.tablegrid_head{background:#4C5766; height:35px;}
+.tablegrid_th{background:#f1f1f1;}
+.tablegrid_row .odd{background:#EDF1F3;}
+.tablegrid_row .even{background:#ffffff;}
+.orderpagination li{background:#DFE2E4; color:#ffffff!important;}
+.orderpagination li a{color:#000!important;}
+.orderpagination li.fg-button{color:#fff!important;}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled{opacity:5!important; background:none!important; color:#ffffff!important; border:1px solid #000!important;}
+.tblDisplay{margin-bottom:0px!important;}

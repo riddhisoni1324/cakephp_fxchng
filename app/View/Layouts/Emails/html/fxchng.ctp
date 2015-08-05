@@ -1,0 +1,1 @@
+<?php echo $this->fetch('mail_content'); ?>

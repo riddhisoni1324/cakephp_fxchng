@@ -1,0 +1,13 @@
+h1,h2,h3,h4,h5,h6 { margin:0px; padding:0px;}
+abbr,acronym { border-bottom:1px dotted #000;cursor:help;} 
+em {font-style:italic;}
+blockquote,ul,ol,dl {margin:0px;}
+ol,ul,dl { margin:0px; padding:0px; margin:0px; padding:0px;}
+ol li {	list-style: decimal outside;}
+ul li {	list-style:none; margin:0px; padding:0px;}
+dl dd {	margin-left:0px;}
+th { font-weight:bold; text-align:center;}
+caption { margin-bottom:.5em; text-align:center;}
+p,fieldset,table,pre {}
+
+input[type=text],input[type=password],textarea{}

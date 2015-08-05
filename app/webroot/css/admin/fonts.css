@@ -1,0 +1,29 @@
+body {	font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:20px; color:#000000;}
+h1{}
+h2{}
+/**
+ * Nudge down to get to 13px equivalent for these form elements
+ */ 
+select,
+input,
+button,
+textarea {
+	font:1.08em arial,helvetica,clean,sans-serif;
+}
+
+/**
+ * To help tables remember to inherit
+ */
+table {}
+
+/**
+ * Bump up IE to get to 13px equivalent for these fixed-width elements
+ */
+pre,
+code,
+kbd,
+samp,
+tt {
+	font-family:monospace;
+	
+}

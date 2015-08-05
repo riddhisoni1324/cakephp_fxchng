@@ -1,0 +1,29 @@
+1) mobile & tablets
+	 - want , condition, brand , also includes , how/old usage
+ 
+2) Electronics & Multimedia, home store, faishon & beauty, service
+	- want, condition, brand, how/old usage
+
+3) jobs
+	- want, compay name, role, designation, education, experience
+
+	*resumes
+	- education, experience, jobtype
+
+4) automobiles
+	* cars
+		- want, condition, brnad, model, Year, kms driven, fuel type, insurance valid till
+	* Other vehicles
+		-  want, condition, Year, fuel type
+	* commercial-Transportation
+		- want, condition, vehicle type
+	* spare part , Tractors - Agricultural Equipments
+		- want
+
+5) community & events
+	* Carpool & Bike Ride Share
+		- i am 
+	* Events
+	- event date, venue
+7) real estate
+	- want, area, city, 
